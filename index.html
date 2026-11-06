@@ -306,6 +306,22 @@
             container.innerHTML = '<div class="state-msg error">' + msg + '</div>';
         }
 
+        // Browsers commonly block fetch() for file:// pages. Keep lessons reachable offline.
+        function showOfflineIndex() {
+            container.innerHTML = '';
+            for (var i = 1; i <= 28; i++) {
+                var chapter = String(i).padStart(2, '0');
+                var card = document.createElement('div');
+                card.className = 'card';
+                var link = document.createElement('a');
+                link.href = chapter + '.html';
+                link.textContent = '第 ' + chapter + ' 章 · 开始学习';
+                card.appendChild(link);
+                container.appendChild(card);
+            }
+            subEl.textContent = '离线课程目录 · 28章';
+        }
+
         fetch('courses.json')
             .then(function(res) {
                 if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -366,7 +382,7 @@
                 });
             })
             .catch(function(err) {
-                showError('课程数据加载失败: ' + err.message + '。请刷新页面重试。');
+                showOfflineIndex();
             });
     })();
 </script>
