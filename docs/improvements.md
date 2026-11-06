@@ -1,0 +1,14 @@
+### 2026-11-06 00:21 UTC — ChatGPT Portfolio Iteration
+- Run ID: 20261106T002137Z-a71
+- Repo / Base SHA: 1998x-stack/macroeconomics-tutorial / 321d5ca94231a373cc24784b48ef05984f6e5018
+- Historical context: Default-branch docs/improvements.md returned GitHub 404; first initialization. PR search returned zero entries; no prior portfolio improvement identified.
+- Product problem & expected user value: README promises direct local index.html opening, but index.html depends on fetch('courses.json'), which browsers commonly reject on file:// origins. Offline users cannot navigate chapters. Preserve a working chapter index on failed fetch.
+- Engineering diagnosis & evidence: index.html fetch('courses.json').catch previously called showError only, leaving zero chapter links. README explicitly advertises local opening. Counterexample: HTTP-served JSON succeeds, so its normal rich cards must remain unchanged.
+- Options & decision: P1 offline fallback score 5+3+5+4-2-1=14; P2 empty dataset messaging 2+1+4+4-1-1=9; P2 data validation 3+2+3+3-3-2=6. Choose the isolated offline fallback.
+- Changes: index.html adds 28 local lesson links on JSON fetch failure, retaining successful fetch behavior; tests/index.test.cjs adds failed-fetch and success-path regression tests. No API, data schema, workflow, or dependency changes.
+- Validation: C: reviewed source replacement and confirmed original HTML preserved apart from targeted insert/catch replacement. D: node --test tests/index.test.cjs authored but not executed because local environment cannot resolve raw.githubusercontent.com to retrieve the checked-out branch. Browser E2E not executed. Verification incomplete.
+- Security & regression review: No secrets, workflow, permissions, deployment or external endpoints changed. Failure fallback uses fixed local filenames and textContent. Remaining risk: browser-specific rendering untested.
+- Risk & rollback: Close Draft PR or revert its feature commits; default branch unchanged.
+- Follow-up: Run Node tests and browser file:// smoke test before merge; verify chapter links 01–28.
+- Commit: 9a120f7a88182f339aa320a5a745a64a07f381ac; fa8cfdb06fd149fc9cf71977cff12ccd6869e4b2
+- PR: pending
