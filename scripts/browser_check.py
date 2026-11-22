@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
-"""Playwright browser acceptance for new site + chapters 01..10.
+"""Playwright browser acceptance for new site + chapters 01..15.
 Requires: pip install playwright && python -m playwright install chromium
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import sys
 R=Path(__file__).resolve().parents[1]/"docs"
-FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,11)]
+FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,16)]
 WIDTHS=[1440,390,360]
+EXPECTED={"chapters/11.html":["533.33","6.67"],"chapters/12.html":["108.33","104.17"],"chapters/13.html":["80.00","120.00"],"chapters/14.html":["70.00","64.00","6.00"],"chapters/15.html":["6.00","6.70","53.00"]}
 errors=[]
 with sync_playwright() as p:
  browser=p.chromium.launch(headless=True)
@@ -26,6 +27,10 @@ with sync_playwright() as p:
     for img in metrics["images"]:
      if not img["ok"]:errors.append(f"{rel}@{w}: broken image {img['src']}")
     if rel!="index.html" and (not metrics["math"] or any(v<=0 for v in metrics["math"])):errors.append(f"{rel}@{w}: invisible MathML")
+    if w==1440 and rel in EXPECTED:
+     output=page.locator(".economics-lab output").first.inner_text()
+     for token in EXPECTED[rel]:
+      if token not in output:errors.append(f"{rel}: expected calibrated toy result {token}, got {output}")
     if w==1440 and rel!="index.html":
      t=page.locator(".exercise input").first
      if t.count():

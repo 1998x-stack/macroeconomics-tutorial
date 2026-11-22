@@ -14,3 +14,8 @@
 .economics-lab .experiment-chart text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif}
 @media(max-width:640px){.economics-lab{padding:15px}.economics-lab .experiment-chart{min-width:0}.economics-lab .inputs{gap:10px}}
 @media print{.economics-lab .experiment-chart{width:100%;break-inside:avoid}}
+
+/* Third batch compact chart captions and MathML overflow containment. */
+.article .economics-lab .experiment-chart{max-width:100%;overflow:hidden;display:block}
+.article .economics-lab output{overflow-wrap:anywhere}
+@media(max-width:640px){.article .economics-lab{max-width:100%;min-width:0}.article .economics-lab .experiment-chart{width:100%;min-width:0}.article .equation math{min-width:max-content}}
