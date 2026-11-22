@@ -1,0 +1,68 @@
+{
+  "chapter": "24",
+  "claims": [
+    {
+      "id": "adaptive",
+      "claim": "Adaptive expectations update forecasts using prior forecast errors",
+      "kind": "model",
+      "source_url": "https://static1.squarespace.com/static/573b5f2bf85082a897b58171/t/67a09a39b7e6ba6947365d90/1738578490730/muth61.pdf",
+      "locator": "Phillips/Cagan adaptive expectations history",
+      "status": "verified",
+      "notes": "descriptive rule, not universal expectation formation"
+    },
+    {
+      "id": "rational",
+      "claim": "Rational expectations are model-consistent conditional forecasts, not perfect foresight",
+      "kind": "primary_theory",
+      "source_url": "https://static1.squarespace.com/static/573b5f2bf85082a897b58171/t/67a09a39b7e6ba6947365d90/1738578490730/muth61.pdf",
+      "locator": "Muth 1961 introduction",
+      "status": "verified",
+      "notes": "forecast errors can occur due to new information"
+    },
+    {
+      "id": "lucas",
+      "claim": "Policy changes can alter behavior parameters in reduced-form econometric models",
+      "kind": "primary_theory",
+      "source_url": "https://doi.org/10.1016/S0167-2231(76)80003-6",
+      "locator": "Lucas 1976",
+      "status": "verified",
+      "notes": "does not imply all structural models are immune"
+    },
+    {
+      "id": "time",
+      "claim": "Discretion can create inflation bias when policymakers have ex-post incentives",
+      "kind": "primary_theory",
+      "source_url": "https://www.nber.org/papers/w1079",
+      "locator": "Barro and Gordon 1983",
+      "status": "verified",
+      "notes": "results depend on objective, expectations and institutional assumptions"
+    },
+    {
+      "id": "guidance",
+      "claim": "Forward guidance influences expectations of future policy and current financial conditions",
+      "kind": "source_definition",
+      "source_url": "https://www.federalreserve.gov/faqs/what-is-forward-guidance-how-is-it-used-in-the-federal-reserve-monetary-policy.htm",
+      "locator": "Federal Reserve FAQ",
+      "status": "verified",
+      "notes": "not a guaranteed path commitment"
+    },
+    {
+      "id": "puzzle",
+      "claim": "Standard DSGE models can overstate distant forward guidance effects",
+      "kind": "research",
+      "source_url": "https://www.journals.uchicago.edu/doi/full/10.1086/724214",
+      "locator": "Del Negro, Giannoni and Patterson 2023",
+      "status": "verified",
+      "notes": "forward guidance puzzle"
+    },
+    {
+      "id": "toy",
+      "claim": "Adaptive expectation convergence under a permanent inflation step",
+      "kind": "toy_model",
+      "source_url": "",
+      "locator": "24.html interactive model",
+      "status": "illustrative",
+      "notes": "perfect-information benchmark is conditional on known regime"
+    }
+  ]
+}
