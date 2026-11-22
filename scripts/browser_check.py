@@ -79,9 +79,9 @@ with sync_playwright() as p:
                         original = float(input_el.input_value())
                         minimum = float(input_el.get_attribute("min"))
                         maximum = float(input_el.get_attribute("max"))
-                        changed = original + 1 if original + 1 <= maximum else original - 1
-                        if changed < minimum:
-                            changed = minimum
+                        changed = maximum if original < (minimum + maximum) / 2 else minimum
+                        if changed == original:
+                            changed = (minimum + maximum) / 2
                         input_el.fill(str(changed))
                         if before_svg == chart.inner_html():
                             errors.append(f"{rel}: diagram {chart.get_attribute('data-chart')} did not update")
