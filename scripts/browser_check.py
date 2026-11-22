@@ -63,9 +63,9 @@ with sync_playwright() as p:
                         original = float(first_input.input_value())
                         minimum = float(first_input.get_attribute("min"))
                         maximum = float(first_input.get_attribute("max"))
-                        changed = original + 1 if original + 1 <= maximum else original - 1
-                        if changed < minimum:
-                            changed = minimum
+                        changed = maximum if original < (minimum + maximum) / 2 else minimum
+                        if changed == original:
+                            changed = (minimum + maximum) / 2
                         first_input.fill(str(changed))
                         after_output = page.locator(".exercise output").first.inner_text()
                         if before_output == after_output:
