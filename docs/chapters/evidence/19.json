@@ -1,0 +1,50 @@
+{
+  "chapter": "19",
+  "claims": [
+    {
+      "id": "BPM7",
+      "claim": "BPM7 于2025年发布而编制者转换时间可不同",
+      "kind": "source_definition",
+      "source_url": "https://www.elibrary.imf.org/view/journals/007/2025/023/article-A001-en.xml",
+      "locator": "IMF BPM7 release",
+      "status": "verified",
+      "notes": "实际国别数据仍需核对使用标准"
+    },
+    {
+      "id": "accounts",
+      "claim": "CA包括净出口、初次收入和二次收入",
+      "kind": "source_definition",
+      "source_url": "https://www.elibrary.imf.org/view/journals/007/2026/006/article-A001-en.xml",
+      "locator": "IMF Global Imbalances 2026",
+      "status": "verified",
+      "notes": "CA与货物贸易差额不同"
+    },
+    {
+      "id": "FA",
+      "claim": "金融账户资产净取得减负债净发生等于净借贷概念",
+      "kind": "source_definition",
+      "source_url": "https://www.ecb.europa.eu/press/pubbydate/2023/html/ecb.bopiipbook202310~d2c47838a5.en.html",
+      "locator": "ECB BOP/IIP methodology",
+      "status": "verified",
+      "notes": "实际有统计误差与遗漏"
+    },
+    {
+      "id": "toy",
+      "claim": "CA=-7、KA=+2、FA=3-8=-5",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "19-account-sign",
+      "status": "illustrative",
+      "notes": "构造一致性演算"
+    },
+    {
+      "id": "trilemma",
+      "claim": "自由资本流动与固定汇率下货币政策独立性受约束",
+      "kind": "source",
+      "source_url": "https://www.imf.org/-/media/files/publications/miscellaneous/english/2022/mcm-technical-assistance-handbook/choice-of-exchange-rate-arrangement.pdf",
+      "locator": "IMF Choice of Exchange Rate Arrangement",
+      "status": "verified",
+      "notes": "这是理论框架，存在风险溢价及其他摩擦"
+    }
+  ]
+}
