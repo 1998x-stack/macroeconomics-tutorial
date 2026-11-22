@@ -1,0 +1,59 @@
+{
+  "chapter": "23",
+  "claims": [
+    {
+      "id": "dating",
+      "claim": "NBER recession dating considers depth, diffusion and duration across multiple indicators",
+      "kind": "source_definition",
+      "source_url": "https://www.nber.org/research/business-cycle-dating/business-cycle-dating-procedure-frequently-asked-questions",
+      "locator": "NBER Business Cycle Dating FAQs",
+      "status": "verified",
+      "notes": "United States chronology; not a universal national definition"
+    },
+    {
+      "id": "rbc",
+      "claim": "Time-to-build investment dynamics can help explain aggregate fluctuations",
+      "kind": "primary_theory",
+      "source_url": "https://www.minneapolisfed.org/~/media/files/research/prescott/papers/timetobuild.pdf",
+      "locator": "Kydland and Prescott 1982",
+      "status": "verified",
+      "notes": "RBC framework assumptions should remain explicit"
+    },
+    {
+      "id": "nk",
+      "claim": "New Keynesian policy analysis uses nominal rigidities and forward-looking behavior",
+      "kind": "research",
+      "source_url": "https://www.nber.org/papers/w7147",
+      "locator": "Clarida, Gali and Gertler 1999",
+      "status": "verified",
+      "notes": "specific model and policy environment"
+    },
+    {
+      "id": "credit",
+      "claim": "Endogenous credit market developments can amplify and propagate macro shocks",
+      "kind": "primary_theory",
+      "source_url": "https://www.nber.org/papers/w6455",
+      "locator": "Bernanke, Gertler and Gilchrist 1998",
+      "status": "verified",
+      "notes": "financial accelerator is conditional mechanism"
+    },
+    {
+      "id": "minsky",
+      "claim": "Hedge, speculative and Ponzi finance describe increasing refinancing dependence",
+      "kind": "primary_theory",
+      "source_url": "https://papers.ssrn.com/sol3/Delivery.cfm/99041607.pdf?abstractid=161024&mirid=1&type=2",
+      "locator": "Minsky 1992 Financial Instability Hypothesis",
+      "status": "verified",
+      "notes": "Minsky moment is not an official recession metric"
+    },
+    {
+      "id": "toy",
+      "claim": "Interactive shock propagation coefficients",
+      "kind": "toy_model",
+      "source_url": "",
+      "locator": "23.html interactive chart",
+      "status": "illustrative",
+      "notes": "not estimated RBC or NK impulse responses"
+    }
+  ]
+}
