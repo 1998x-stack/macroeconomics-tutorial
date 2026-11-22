@@ -1,0 +1,41 @@
+{
+  "chapter": "09",
+  "claims": [
+    {
+      "id": "investment-npv",
+      "claim": "项目现值取决于利率和风险匹配折现率",
+      "kind": "model",
+      "source_url": "",
+      "locator": "本文 NPV 一期公式",
+      "status": "derived",
+      "notes": "CF110 P100利率5%与12%为构造示例"
+    },
+    {
+      "id": "is-equilibrium",
+      "claim": "IS表示产品市场均衡关系而非商品需求预测",
+      "kind": "definition",
+      "source_url": "https://fraser.stlouisfed.org/title/intermediate-targets-indicators-monetary-policy-146/fulltext",
+      "locator": "IS-LM 概念",
+      "status": "verified",
+      "notes": "与税收、投资和物价假设有关"
+    },
+    {
+      "id": "fiscal-shift",
+      "claim": "在给定利率时G增加使IS右移",
+      "kind": "model",
+      "source_url": "",
+      "locator": "线性模型比较静态",
+      "status": "derived",
+      "notes": "ΔG20、c0.6给定利率下ΔY50"
+    },
+    {
+      "id": "toy",
+      "claim": "A120、c0.6、b4的示意IS曲线",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "09-is-shift、交互图",
+      "status": "illustrative",
+      "notes": "未对应实际经济"
+    }
+  ]
+}
