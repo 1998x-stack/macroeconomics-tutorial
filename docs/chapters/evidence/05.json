@@ -1,0 +1,41 @@
+{
+  "chapter": "05",
+  "claims": [
+    {
+      "id": "bank-deposit",
+      "claim": "商业银行新增贷款同时创造新存款",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "locator": "Quarterly Bulletin 2014 Q1",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "M1-revision",
+      "claim": "中国 M1 自统计2025年1月数据起修订",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.pbc.gov.cn/chubanwu/fileDir/resource/cms/2025/06/2025062416082199683.pdf",
+      "locator": "人民银行文告 M1 公告",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "money-multiplier",
+      "claim": "简单乘数只在限制性假设下适用",
+      "kind": "definition_or_model",
+      "status": "derived",
+      "source_url": "https://www.bankofengland.co.uk/quarterly-bulletin/2014/q1/money-creation-in-the-modern-economy",
+      "locator": "Contrasts with textbook multiplier",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "loan-toy",
+      "claim": "放贷100资产负债两端扩张100",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "figure 05-loan-ledger",
+      "notes": "构造教学示例，不是经验数据。"
+    }
+  ]
+}

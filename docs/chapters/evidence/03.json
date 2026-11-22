@@ -1,0 +1,41 @@
+{
+  "chapter": "03",
+  "claims": [
+    {
+      "id": "CPI",
+      "claim": "CPI 基于消费品服务价格变化",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bls.gov/cpi/questions-and-answers.htm",
+      "locator": "Method",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "OER",
+      "claim": "美国 CPI 使用等价租金衡量业主居住服务",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bls.gov/cpi/additional-resources/rent-oer-faq.htm",
+      "locator": "FAQ",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "inflation",
+      "claim": "需求与供给冲击可能产生不同价格与产出反应",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/inflation",
+      "locator": "Causes",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "basket",
+      "claim": "构造篮子CPI由100变125",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "figure 03-basket",
+      "notes": "构造教学示例，不是经验数据。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "chapter": "01",
+  "claims": [
+    {
+      "id": "macro-output",
+      "claim": "GDP 是境内一定时期生产的商品和服务价值",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bea.gov/resources/learning-center/what-to-know-gdp",
+      "locator": "What to know GDP",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "employment-def",
+      "claim": "失业率的分母是劳动力",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bls.gov/cps/definitions.htm",
+      "locator": "CPS definitions",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "toy-multiplier",
+      "claim": "价格固定无税无进口的简单乘数公式",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "chapter experiment",
+      "notes": "构造教学示例，不是经验数据。"
+    }
+  ]
+}
