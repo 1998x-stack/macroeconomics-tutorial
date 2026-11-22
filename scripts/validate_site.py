@@ -23,7 +23,7 @@ class HTMLAudit(HTMLParser):
                 self.refs.append(d[key])
 
 def check_mathml(path, source):
-    blocks = re.findall(r"<math\\b[\\s\\S]*?</math>", source, flags=re.I)
+    blocks = re.findall(r"<math\b[\s\S]*?</math>", source, flags=re.I)
     if 21 <= int(path.stem) <= 25 and not blocks:
         errors.append(f"{path}: missing MathML equations")
     if not (21 <= int(path.stem) <= 25):
