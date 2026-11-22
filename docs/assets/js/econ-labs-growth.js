@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded",()=>{
      const share=read(root,"share")/100,eta=read(root,"eta"),lambda=read(root,"lambda"),phi=read(root,"phi"),ha=100*share;
      const growth=eta*Math.pow(ha,lambda);
      const vals=[];let A=1,dt=.25;
-     for(let t=0;t<=60;t++){vals.push(A);A+=dt*eta*Math.pow(ha,lambda)*Math.pow(A,phi);}
+     for(let t=0;t<=60;t++){vals.push(A);if(t<60)A+=dt*eta*Math.pow(ha,lambda)*Math.pow(A,phi);}
      out(root,"初始知识增长率 "+fmt(growth*100)+"%/年；15年后知识存量指数 "+fmt(A)+"（A₀=1）。研发人员 H_A="+fmt(ha,1)+" 个标准化单位。");
      const max=Math.max(1.1,A)*1.08;
      updatePath(svg,"ideas",vals,[0,max]);
@@ -68,7 +68,7 @@ document.addEventListener("DOMContentLoaded",()=>{
    if(type==="expectations"){
      const initial=read(root,"initial"),target=read(root,"target"),lambda=read(root,"lambda");
      let expected=initial;const adaptive=[initial],actual=[initial],benchmark=[initial];
-     for(let t=1;t<=10;t++){expected=expected+lambda*(target-expected);adaptive.push(expected);actual.push(target);benchmark.push(target);}
+     for(let t=1;t<=10;t++){const priorActual=t-1===0?initial:target;expected=expected+lambda*(priorActual-expected);adaptive.push(expected);actual.push(target);benchmark.push(target);}
      const min=Math.min(0,initial,target)-.5,max=Math.max(initial,target)+.5;
      updatePath(svg,"actual",actual,[min,max,72,640,35,292]);
      updatePath(svg,"adaptive",adaptive,[min,max,72,640,35,292]);
