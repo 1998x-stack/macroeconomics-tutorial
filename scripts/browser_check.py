@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Playwright browser acceptance for new site + chapters 01..15.
+"""Playwright browser acceptance for new site + chapters 01..20.
 Requires: pip install playwright && python -m playwright install chromium
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import sys
 R=Path(__file__).resolve().parents[1]/"docs"
-FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,16)]
+FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,21)]
 WIDTHS=[1440,390,360]
-EXPECTED={"chapters/11.html":["533.33","6.67"],"chapters/12.html":["108.33","104.17"],"chapters/13.html":["80.00","120.00"],"chapters/14.html":["70.00","64.00","6.00"],"chapters/15.html":["6.00","6.70","53.00"]}
+EXPECTED={"chapters/11.html":["533.33","6.67"],"chapters/12.html":["108.33","104.17"],"chapters/13.html":["80.00","120.00"],"chapters/14.html":["70.00","64.00","6.00"],"chapters/15.html":["6.00","6.70","53.00"],"chapters/16.html":["80.55","0.55"],"chapters/17.html":["2.20","1.00"],"chapters/18.html":["8.00","3.00","3.16"],"chapters/19.html":["-7.00","-5.00"],"chapters/20.html":["7.00","1.00","7.21"]}
 errors=[]
 with sync_playwright() as p:
  browser=p.chromium.launch(headless=True)
