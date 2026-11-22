@@ -1,0 +1,41 @@
+{
+  "chapter": "08",
+  "claims": [
+    {
+      "id": "keynes",
+      "claim": "支出产出模型中计划支出与45度线相交确定均衡",
+      "kind": "source_definition",
+      "source_url": "https://openstax.org/books/principles-macroeconomics-3e/pages/b-the-expenditure-output-model",
+      "locator": "Expenditure-Output model",
+      "status": "verified",
+      "notes": "固定物价且有闲置产能"
+    },
+    {
+      "id": "multiplier",
+      "claim": "乘数取决于边际消费倾向、税收、进口等漏出",
+      "kind": "source_definition",
+      "source_url": "https://openstax.org/books/principles-macroeconomics-3e/pages/b-the-expenditure-output-model",
+      "locator": "Multiplier/leakages",
+      "status": "verified",
+      "notes": "无法直接代表实际财政政策乘数"
+    },
+    {
+      "id": "toy",
+      "claim": "A40 c0.6 Y100 示例",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "08-cross 与可交互图",
+      "status": "illustrative",
+      "notes": "构造示例"
+    },
+    {
+      "id": "leaks",
+      "claim": "1/(1-c(1-t)+m) 系数在指定模型下代数推导",
+      "kind": "model",
+      "source_url": "",
+      "locator": "本文推导",
+      "status": "derived",
+      "notes": "定额自主支出、比例税、进口边际倾向模型"
+    }
+  ]
+}

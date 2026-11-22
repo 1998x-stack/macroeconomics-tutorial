@@ -1,0 +1,41 @@
+{
+  "chapter": "06",
+  "claims": [
+    {
+      "id": "fisher",
+      "claim": "1+r=(1+i)/(1+π) 由名义购买力换算得到",
+      "kind": "model",
+      "source_url": "",
+      "locator": "本文费雪换算及构造案例",
+      "status": "derived",
+      "notes": "名义5%、通胀3%得约1.9417%"
+    },
+    {
+      "id": "yield-recession",
+      "claim": "收益率倒挂对衰退的预测不是无误报或跨样本完美",
+      "kind": "source_definition",
+      "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/there-is-no-single-best-predictor-of-recessions-20190521.html",
+      "locator": "研究全文",
+      "status": "verified",
+      "notes": "不声称单个曲线利差能保证预测"
+    },
+    {
+      "id": "lpr",
+      "claim": "中国 LPR 为报价行报价后发布的贷款定价参考",
+      "kind": "source_definition",
+      "source_url": "https://www.chinamoney.org.cn/chinese/bklpr/",
+      "locator": "LPR 形成机制",
+      "status": "verified",
+      "notes": "不把历史数值写为今天值"
+    },
+    {
+      "id": "yield-demo",
+      "claim": "图示曲线和用户可调利差均为示意",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "06-yield-curves SVG 与互动图",
+      "status": "illustrative",
+      "notes": "非实测利差"
+    }
+  ]
+}

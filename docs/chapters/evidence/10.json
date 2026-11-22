@@ -1,0 +1,41 @@
+{
+  "chapter": "10",
+  "claims": [
+    {
+      "id": "LM-definition",
+      "claim": "LM取固定货币余额与实际货币需求均衡",
+      "kind": "model",
+      "source_url": "https://fraser.stlouisfed.org/files/docs/publications/frbslreview/rev_stls_198210.pdf",
+      "locator": "传统 IS–LM 简化",
+      "status": "derived",
+      "notes": "i是短期名义利率，P固定"
+    },
+    {
+      "id": "ample-reserves",
+      "claim": "现代美联储在充裕准备金制度以管理利率控制短端利率",
+      "kind": "definition",
+      "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/implementing-monetary-policy-in-an-ample-reserves-regime-the-basics-note-1-of-3-20200701.html",
+      "locator": "Federal Reserve ample reserves",
+      "status": "verified",
+      "notes": "不意味着广义货币数量外生且由央行精确控制"
+    },
+    {
+      "id": "other-tools",
+      "claim": "近利率下限仍可能使用资产购买、前瞻指引等工具",
+      "kind": "definition",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "locator": "Monetary Policy explainer",
+      "status": "verified",
+      "notes": "政策成效并非保证"
+    },
+    {
+      "id": "toy",
+      "claim": "m200、k0.5、h10时Y500得i5",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "10-lm-derive、交互",
+      "status": "illustrative",
+      "notes": "构造非真实数据"
+    }
+  ]
+}

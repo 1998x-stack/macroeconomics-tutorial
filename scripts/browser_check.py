@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Playwright browser acceptance for new site + chapters 01..05.
+"""Playwright browser acceptance for new site + chapters 01..10.
 Requires: pip install playwright && python -m playwright install chromium
 """
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 import sys
 R=Path(__file__).resolve().parents[1]/"docs"
-FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,6)]
+FILES=["index.html"]+[f"chapters/{n:02d}.html" for n in range(1,11)]
 WIDTHS=[1440,390,360]
 errors=[]
 with sync_playwright() as p:
@@ -18,7 +18,9 @@ with sync_playwright() as p:
    page.on("console",lambda msg,rel=rel,w=w:errors.append(f"{rel}@{w}: console {msg.text}") if msg.type=="error" else None)
    try:
     page.goto((R/rel).resolve().as_uri(),wait_until="load",timeout=30000)
-    page.wait_for_timeout(150)
+    page.evaluate("""() => document.querySelectorAll("img[loading=lazy]").forEach(img => img.loading="eager")""")
+    page.wait_for_function("""() => [...document.images].every(img => img.complete)""",timeout=15000)
+    page.wait_for_timeout(100)
     metrics=page.evaluate("""() => ({outer:document.documentElement.scrollWidth,inner:innerWidth,images:[...document.images].map(x=>({src:x.getAttribute('src'),ok:x.complete&&x.naturalWidth>0})),math:[...document.querySelectorAll('math')].map(x=>x.getBoundingClientRect().width)})""")
     if metrics["outer"]>metrics["inner"]+1:errors.append(f"{rel}@{w}: horizontal document overflow {metrics['outer']}>{metrics['inner']}")
     for img in metrics["images"]:
@@ -32,6 +34,15 @@ with sync_playwright() as p:
       t.fill(str(float(before)+1 if float(before)+1<=float(t.get_attribute("max")) else float(before)-1))
       after=page.locator(".exercise output").first.inner_text()
       if before==t.input_value() or previous==after:errors.append(f"{rel}: interaction not updated")
+      for lab in page.locator(".economics-lab").all():
+       graph=lab.locator("svg[data-chart]")
+       if not graph.count():continue
+       changed_input=lab.locator("input").first
+       before_svg=graph.inner_html()
+       original_value=changed_input.input_value()
+       changed_input.fill(str(float(original_value)+1 if float(original_value)+1<=float(changed_input.get_attribute("max")) else float(original_value)-1))
+       after_svg=graph.inner_html()
+       if before_svg==after_svg:errors.append(f"{rel}: diagram {graph.get_attribute('data-chart')} did not update")
     if w in (1440,390):
      out=Path("qa-screenshots");out.mkdir(exist_ok=True)
      page.screenshot(path=str(out/(rel.replace("/","-")+"-"+str(w)+".png")),full_page=True)
