@@ -1,0 +1,32 @@
+{
+  "chapter": "17",
+  "claims": [
+    {
+      "id": "expect",
+      "claim": "预期及劳动力紧张度影响通胀与失业之间的关系",
+      "kind": "source",
+      "source_url": "https://www.newyorkfed.org/research/staff_reports/sr1086",
+      "locator": "NY Fed Staff Report 1086",
+      "status": "verified",
+      "notes": "模型和实证边界属于报告，不应推广为政策定律"
+    },
+    {
+      "id": "shocks",
+      "claim": "不同结构性冲击改变劳动力与通胀的经验相关关系",
+      "kind": "source",
+      "source_url": "https://www.federalreserve.gov/econres/feds/reconnecting-inflation-and-the-labor-market-a-tale-of-two-curves.htm",
+      "locator": "Fed research revised 2025",
+      "status": "verified",
+      "notes": "并非一个永久稳定斜率"
+    },
+    {
+      "id": "toy",
+      "claim": "π=2-0.8*(5-4)+1=2.2%",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "17-phillips-shift and interactive demo",
+      "status": "illustrative",
+      "notes": "教学数据，不是国家估计值"
+    }
+  ]
+}
