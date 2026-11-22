@@ -5,7 +5,7 @@
       "id": "adaptive",
       "claim": "Adaptive expectations update forecasts using prior forecast errors",
       "kind": "model",
-      "source_url": "https://static1.squarespace.com/static/573b5f2bf85082a897b58171/t/67a09a39b7e6ba6947365d90/1738578490730/muth61.pdf",
+      "source_url": "https://doi.org/10.2307/1909635",
       "locator": "Phillips/Cagan adaptive expectations history",
       "status": "verified",
       "notes": "descriptive rule, not universal expectation formation"
