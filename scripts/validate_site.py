@@ -16,7 +16,7 @@ class H(HTMLParser):
 for f in [R/"index.html"]+[R/"chapters"/f"{n:02d}.html" for n in range(1,29)]:
  if not f.exists():err.append("missing "+str(f));continue
  h=H();h.feed(f.read_text(encoding="utf-8"))
- if f==R/"index.html" or f.parent.name=="chapters" and int(f.stem)<=5:
+ if f==R/"index.html" or f.parent.name=="chapters" and int(f.stem)<=10:
   if h.h1!=1:err.append(f"{f}: {h.h1} H1 headings")
  for a in h.img:
   if not a.get("alt"):err.append(f"{f}: img missing alt")
@@ -32,7 +32,7 @@ for f in (R/"assets/svg").glob("*.svg"):
   x=ET.parse(f).getroot()
   if "viewBox" not in x.attrib or not {e.tag.split("}")[-1] for e in x}.issuperset({"title","desc"}):err.append(f"bad SVG accessibility {f}")
  except ET.ParseError as e:err.append(f"bad XML {f}: {e}")
-for n in range(1,6):
+for n in range(1,11):
  f=R/"chapters/evidence"/f"{n:02d}.json"
  if not f.exists():err.append("missing evidence "+str(f));continue
  j=json.loads(f.read_text(encoding="utf-8"))
@@ -40,4 +40,4 @@ for n in range(1,6):
   if not all(k in item for k in ("id","claim","kind","source_url","locator","status","notes")):err.append(f"invalid ledger {f}")
  if not j.get("claims"):err.append("empty evidence "+str(f))
 if err:print("\n".join(err));sys.exit(1)
-print("Validated: 28 chapters, 28 URL aliases, SVG files, and five evidence ledgers")
+print("Validated: 28 chapters, 28 URL aliases, SVG files, and ten evidence ledgers")

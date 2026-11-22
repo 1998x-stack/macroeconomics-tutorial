@@ -8,3 +8,9 @@
 .article-layout>main{min-width:0;max-width:100%}
 .article figure{max-width:100%}
 @media(max-width:980px){.article-layout{grid-template-columns:minmax(0,1fr)}}
+
+/* Responsive interactive diagrams for the second batch. Dynamic SVG keeps a readable no-JS default. */
+.economics-lab .experiment-chart{display:block;width:100%;height:auto;margin:18px 0 2px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:12px}
+.economics-lab .experiment-chart text{font-family:system-ui,"PingFang SC","Microsoft YaHei",sans-serif}
+@media(max-width:640px){.economics-lab{padding:15px}.economics-lab .experiment-chart{min-width:0}.economics-lab .inputs{gap:10px}}
+@media print{.economics-lab .experiment-chart{width:100%;break-inside:avoid}}
