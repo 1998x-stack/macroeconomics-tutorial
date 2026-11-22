@@ -5,9 +5,9 @@
 - **站点首页**：`docs/index.html`
 - **文章目录**：`docs/chapters/01.html` 至 `28.html`
 - **在线地址（Pages 配置且工作流成功后）**：https://1998x-stack.github.io/macroeconomics-tutorial/
-- **已深度精修**：第 01—20 章；16—20 章新增 23 张独立 SVG、5 项离线交互实验及逐章证据账本。21—28 章保留迁移原稿，尚未完成深度审核。
+- **已深度精修**：第 01—25 章；21—25 章新增 25 张独立 SVG、5 项离线交互实验、5 份证据账本和一份可复算 Dynare RBC 示例。站点累计 99 张 SVG。26—28 章保留迁移原稿，尚未完成深度审核。
 - **本地阅读**：直接用浏览器打开 `docs/index.html`，不需要构建工具。
-- **校验**：`python3 scripts/validate_site.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。
+- **校验**：`python3 scripts/validate_site.py`；RBC 稳态残差：`python3 scripts/verify_rbc_baseline.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。
 
 ## 项目结构
 
@@ -19,11 +19,14 @@
 │   ├── assets/js/econ-labs.js  # 06–10 章节的计算实验和动态 SVG
 │   ├── assets/js/econ-labs-advanced.js # 11–15 进阶实验
 │   ├── assets/js/econ-labs-open.js     # 16–20 债务、通胀、风险、BOP、汇率实验
+│   ├── assets/js/econ-labs-growth.js   # 21–25 增长、创意、周期、预期、DSGE实验
+│   ├── assets/code/rbc_baseline.mod    # Dynare RBC 基准模型
 │   ├── assets/css/site.css     # 新版样式
 │   ├── assets/js/experiments.js
 │   ├── assets/svg/             # 自制 SVG
 │   └── 01.html … 28.html      # 旧 Pages URL 的兼容重定向
 ├── scripts/validate_site.py
+├── scripts/verify_rbc_baseline.py
 ├── .github/workflows/         # 校验、部署
 ├── AGENTS.md                  # 编写与事实验收规则
 └── 01.html … 28.html          # 根目录旧文件，过渡期保留
