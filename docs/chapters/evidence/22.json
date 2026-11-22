@@ -1,0 +1,50 @@
+{
+  "chapter": "22",
+  "claims": [
+    {
+      "id": "romer",
+      "claim": "知识具有非竞争性且部分可排他，研发活动受私人激励驱动",
+      "kind": "primary_theory",
+      "source_url": "https://www.nber.org/papers/w3210",
+      "locator": "Romer 1990, abstract and introduction",
+      "status": "verified",
+      "notes": "创意生产式在交互中为一般化教学简式"
+    },
+    {
+      "id": "scale",
+      "claim": "R&D growth models' scale-effect predictions face empirical challenge",
+      "kind": "research_critique",
+      "source_url": "https://www.journals.uchicago.edu/doi/10.1086/262002",
+      "locator": "Jones 1995, abstract",
+      "status": "verified",
+      "notes": "semi-endogenous alternatives alter long-run growth implications"
+    },
+    {
+      "id": "institutions",
+      "claim": "Economic institutions shape incentives and constraints but are endogenous political outcomes",
+      "kind": "research",
+      "source_url": "https://www.nber.org/papers/w10481",
+      "locator": "Acemoglu, Johnson and Robinson 2004",
+      "status": "verified",
+      "notes": "historical identification depends on assumptions; not a single-score causal law"
+    },
+    {
+      "id": "middle-income",
+      "claim": "World Bank WDR2024 describes 1i, 2i and 3i strategy progression",
+      "kind": "policy_framework",
+      "source_url": "https://www.worldbank.org/en/publication/wdr2024",
+      "locator": "World Development Report 2024 main messages",
+      "status": "verified",
+      "notes": "diagnostic framework, not mechanical threshold rule"
+    },
+    {
+      "id": "toy",
+      "claim": "Knowledge stock path under A_dot=eta H_A^lambda A^phi",
+      "kind": "toy_model",
+      "source_url": "",
+      "locator": "22.html interactive model",
+      "status": "illustrative",
+      "notes": "not an exact replication of Romer 1990 or a general equilibrium"
+    }
+  ]
+}
