@@ -1,0 +1,50 @@
+{
+  "chapter": "20",
+  "claims": [
+    {
+      "id": "real",
+      "claim": "给定E为本币每外币，实际汇率q=EP*/P",
+      "kind": "definition",
+      "source_url": "https://www.cnb.cz/en/faq/What-is-the-nominal-and-real-exchange-rate/",
+      "locator": "Czech National Bank real exchange rate FAQ",
+      "status": "verified",
+      "notes": "该口径q增加表示本币实际贬值"
+    },
+    {
+      "id": "ppp",
+      "claim": "绝对PPP使用同一可比商品篮子价格之比",
+      "kind": "model",
+      "source_url": "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/real-exchange-rates",
+      "locator": "IMF Real Exchange Rates",
+      "status": "verified",
+      "notes": "不能当成短期实际汇率预测"
+    },
+    {
+      "id": "uip",
+      "claim": "风险溢价与对冲市场摩擦会造成UIP偏离",
+      "kind": "research",
+      "source_url": "https://www.imf.org/en/publications/wp/issues/2025/08/01/breaking-parity-equilibrium-exchange-rates-and-currency-premia-568656",
+      "locator": "IMF Currency Premia 2025",
+      "status": "verified",
+      "notes": "等式只是在强假设下的预期收益关系"
+    },
+    {
+      "id": "oca",
+      "claim": "最优货币区考虑冲击对称和要素流动",
+      "kind": "theory",
+      "source_url": "https://www.elibrary.imf.org/abstract/journals/001/2020/180/article-A001-en.xml",
+      "locator": "IMF exchange rate anchor, optimum currency areas",
+      "status": "verified",
+      "notes": "不是无条件的共同货币建议"
+    },
+    {
+      "id": "toy",
+      "claim": "E7 P70 P*10 q1，UIP下E1e约7.21",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "20-ppp and 20-uip",
+      "status": "illustrative",
+      "notes": "构造参数并非现实汇率"
+    }
+  ]
+}
