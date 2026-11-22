@@ -1,0 +1,32 @@
+{
+  "chapter": "11",
+  "claims": [
+    {
+      "id": "islm-system",
+      "claim": "两条线性市场均衡方程联立能解出Y500利率5",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "11-equilibrium、代数回代",
+      "status": "illustrative",
+      "notes": "A220 c0.6 b4 k0.5 h10 m200；利率变量单位百分点"
+    },
+    {
+      "id": "fiscal-mult",
+      "claim": "财政增支20在LM固定时使Y增33.33而不是固定利率的50",
+      "kind": "model",
+      "source_url": "",
+      "locator": "联立比较静态与参数核算",
+      "status": "derived",
+      "notes": "教材数值非真实财政乘数"
+    },
+    {
+      "id": "policy-regime",
+      "claim": "美联储充裕准备金制度以管理利率为重要工具",
+      "kind": "primary_source",
+      "source_url": "https://www.newyorkfed.org/markets/domestic-market-operations/monetary-policy-implementation",
+      "locator": "policy implementation",
+      "status": "verified",
+      "notes": "不能与固定M/P的旧式LM无条件混用"
+    }
+  ]
+}
