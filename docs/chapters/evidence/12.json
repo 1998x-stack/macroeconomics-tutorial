@@ -1,0 +1,41 @@
+{
+  "chapter": "12",
+  "claims": [
+    {
+      "id": "ad-as",
+      "claim": "AD、SRAS与LRAS用于分析价格产出与潜在产出",
+      "kind": "primary_source",
+      "source_url": "https://openstax.org/books/principles-macroeconomics-3e/pages/11-2-building-a-model-of-aggregate-demand-and-aggregate-supply",
+      "locator": "chapter 11.2",
+      "status": "verified",
+      "notes": "图上纵轴为P不是同比通胀率"
+    },
+    {
+      "id": "long-run",
+      "claim": "长期潜在产出与技术资本劳动力有关",
+      "kind": "primary_source",
+      "source_url": "https://openstax.org/books/principles-macroeconomics-3e/pages/13-1-the-building-blocks-of-neoclassical-analysis",
+      "locator": "section 13.1",
+      "status": "verified",
+      "notes": "潜在产出非可直接观察值"
+    },
+    {
+      "id": "toy-demand",
+      "claim": "D10 S0在斜率参数下Y108.33P104.17",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "12-demand及计算实验",
+      "status": "illustrative",
+      "notes": "纯构造，无实际统计对应"
+    },
+    {
+      "id": "toy-supply",
+      "claim": "D0 S10在斜率参数下Y91.67P105.83",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "12-supply",
+      "status": "illustrative",
+      "notes": "纯构造"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "chapter": "13",
+  "claims": [
+    {
+      "id": "pi-review",
+      "claim": "永久收入与生命周期理论强调跨期消费配置",
+      "kind": "primary_source",
+      "source_url": "https://www.nber.org/papers/w1687",
+      "locator": "research summary",
+      "status": "verified",
+      "notes": "实证偏差存在，不是完全正确的无条件事实"
+    },
+    {
+      "id": "mpc-heterogeneity",
+      "claim": "MPC随家庭流动性和财富等特征有异质性",
+      "kind": "primary_source",
+      "source_url": "https://www.federalreserve.gov/econres/notes/feds-notes/heterogeneity-in-the-marginal-propensity-to-consume-among-u-s-households-20261009.html",
+      "locator": "2026 paper",
+      "status": "verified",
+      "notes": "对美国家庭经验结果不要直接套到别国"
+    },
+    {
+      "id": "euler",
+      "claim": "两期预算与Euler一阶条件在内点条件下成立",
+      "kind": "model",
+      "source_url": "",
+      "locator": "两期最优化说明",
+      "status": "derived",
+      "notes": "存在借贷约束时最优解可为角点"
+    },
+    {
+      "id": "toy",
+      "claim": "Y1 80 Y2 120 r0且借款限制下C1变动",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "13-credit 与交互",
+      "status": "illustrative",
+      "notes": "两期确定性模型"
+    }
+  ]
+}
