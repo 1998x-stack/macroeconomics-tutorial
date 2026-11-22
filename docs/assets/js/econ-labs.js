@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded",()=>{
   if(type==="yield"){
    const short=numeric(root,"short"),spread=numeric(root,"spread");
    put(root,"10年与短端利差 "+f(spread)+" 个百分点："+(spread<0?"倒挂":spread===0?"平坦":"正斜率")+"；仅用于观察形态，不保证预测经济周期。");
-   if(graph){const scaleMin=Math.min(short,short+spread)-2,scaleMax=Math.max(short,short+spread)+2;
+   if(graph){const scaleMin=-12,scaleMax=30; // fixed axis: changes in level and term spread remain visible
     const xy=(j,y)=>[82+j*130,285-(y-scaleMin)/(scaleMax-scaleMin)*218];
     points(graph,".lab-series",[0,1,2,3,4].map(j=>{const [x,y]=xy(j,short+spread*j/4);return f(x)+","+f(y)}).join(" "));
    }

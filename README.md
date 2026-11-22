@@ -5,7 +5,7 @@
 - **站点首页**：`docs/index.html`
 - **文章目录**：`docs/chapters/01.html` 至 `28.html`
 - **在线地址（Pages 配置且工作流成功后）**：https://1998x-stack.github.io/macroeconomics-tutorial/
-- **已深度精修**：第 01—10 章。其中第 06—10 章新增 18 张独立 SVG、5 项交互小实验及机构来源账本；第 11—28 章仍为原始迁移稿，待逐章审阅。
+- **已深度精修**：第 01—10 章。其中第 06—10 章新增 18 张独立 SVG、6 项交互小实验及机构来源账本；第 11—28 章仍为原始迁移稿，待逐章审阅。
 - **本地阅读**：直接用浏览器打开 `docs/index.html`，不需要构建工具。
 - **校验**：`python3 scripts/validate_site.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。
 
