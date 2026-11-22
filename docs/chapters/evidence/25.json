@@ -1,0 +1,59 @@
+{
+  "chapter": "25",
+  "claims": [
+    {
+      "id": "dsge",
+      "claim": "DSGE is a dynamic stochastic general equilibrium framework with heterogeneous possible structures",
+      "kind": "method",
+      "source_url": "https://www.dynare.org/manual/the-model-file.html",
+      "locator": "Dynare 7.2 manual, model file and stochastic solution",
+      "status": "verified",
+      "notes": "DSGE is a framework, not one fixed model"
+    },
+    {
+      "id": "nk",
+      "claim": "Three-equation New Keynesian framework links dynamic IS, Phillips curve and policy rule",
+      "kind": "research",
+      "source_url": "https://www.nber.org/papers/w7147",
+      "locator": "Clarida, Gali and Gertler 1999",
+      "status": "verified",
+      "notes": "linearized baseline; equation conventions must be stated"
+    },
+    {
+      "id": "smets",
+      "claim": "Estimated DSGE models can include multiple real and nominal frictions and structural shocks",
+      "kind": "empirical_model",
+      "source_url": "https://pubs.aeaweb.org/doi/abs/10.1257/aer.97.3.586",
+      "locator": "Smets and Wouters 2007",
+      "status": "verified",
+      "notes": "specific US data/model specification, not universal forecast superiority"
+    },
+    {
+      "id": "hank",
+      "claim": "HANK combines household heterogeneity and New Keynesian nominal frictions to study distributional channels",
+      "kind": "research_review",
+      "source_url": "https://www.annualreviews.org/content/journals/10.1146/annurev-economics-091624-044646",
+      "locator": "Auclert, Rognlie and Straub 2025",
+      "status": "verified",
+      "notes": "quantitative results depend on household and policy structure"
+    },
+    {
+      "id": "rbc-code",
+      "claim": "Baseline RBC steady state calibration satisfies model equations",
+      "kind": "derived",
+      "source_url": "",
+      "locator": "docs/assets/code/rbc_baseline.mod and scripts/verify_rbc_baseline.py",
+      "status": "derived",
+      "notes": "analytical residual verification only; Dynare execution is not claimed"
+    },
+    {
+      "id": "toy",
+      "claim": "AR(1) technology shock path a_t=rho*a_(t-1)+epsilon_t",
+      "kind": "toy_model",
+      "source_url": "",
+      "locator": "25.html interactive lab",
+      "status": "illustrative",
+      "notes": "not a full model impulse response"
+    }
+  ]
+}

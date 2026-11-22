@@ -1,0 +1,50 @@
+{
+  "chapter": "21",
+  "claims": [
+    {
+      "id": "solow",
+      "claim": "有效劳动人均资本动态与稳态决定长期增长路径",
+      "kind": "primary_theory",
+      "source_url": "https://academic.oup.com/qje/article-abstract/70/1/65/1903777",
+      "locator": "Solow 1956, sections II–IV",
+      "status": "verified",
+      "notes": "本文采用连续时间 Cobb–Douglas 记法"
+    },
+    {
+      "id": "golden",
+      "claim": "黄金律资本满足MPK=n+g+δ",
+      "kind": "derived",
+      "source_url": "https://academic.oup.com/qje/article-abstract/70/1/65/1903777",
+      "locator": "steady-state consumption maximization",
+      "status": "derived",
+      "notes": "黄金律最大化稳态消费，不是增长率"
+    },
+    {
+      "id": "tfp",
+      "claim": "TFP / Solow residual is output growth not explained by weighted input growth",
+      "kind": "source_definition",
+      "source_url": "https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr122.pdf",
+      "locator": "New York Fed Staff Report 122, TFP section",
+      "status": "verified",
+      "notes": "residual also captures utilization, reallocation and measurement error"
+    },
+    {
+      "id": "convergence",
+      "claim": "Augmented Solow model supports conditional convergence under controls",
+      "kind": "empirical",
+      "source_url": "https://academic.oup.com/qje/article-abstract/107/2/407/1838296",
+      "locator": "Mankiw Romer Weil 1992",
+      "status": "verified",
+      "notes": "sample and model conditional, not universal absolute convergence"
+    },
+    {
+      "id": "toy",
+      "claim": "interactive capital path and steady state",
+      "kind": "toy_model",
+      "source_url": "",
+      "locator": "21.html experiment",
+      "status": "illustrative",
+      "notes": "constructed parameters, not country data"
+    }
+  ]
+}
