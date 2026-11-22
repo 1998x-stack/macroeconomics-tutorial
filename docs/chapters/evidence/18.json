@@ -1,0 +1,41 @@
+{
+  "chapter": "18",
+  "claims": [
+    {
+      "id": "CCyB",
+      "claim": "逆周期资本缓冲意在上行积累空间并在压力阶段释放",
+      "kind": "source",
+      "source_url": "https://www.bis.org/committees/bcbs/ccyb",
+      "locator": "BCBS CCyB",
+      "status": "verified",
+      "notes": "各司法辖区缓冲率不同"
+    },
+    {
+      "id": "risk",
+      "claim": "宏观审慎风险评估可结合信贷量、资产价格和融资风险指标",
+      "kind": "source",
+      "source_url": "https://www.bis.org/committees/bcbs/basel-consolidated-guidelines/module/cad/20",
+      "locator": "BCBS CAD/20",
+      "status": "verified",
+      "notes": "指标不构成单一机械触发规则"
+    },
+    {
+      "id": "balance",
+      "claim": "资产100负债92，损失5后权益3",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "18-equity-loss",
+      "status": "illustrative",
+      "notes": "账面权益与监管资本不同"
+    },
+    {
+      "id": "fire-sale",
+      "claim": "火售和共同资产暴露可能形成系统性反馈",
+      "kind": "model",
+      "source_url": "https://www.elibrary.imf.org/view/journals/007/2014/031/article-A001-en.xml",
+      "locator": "IMF macroprudential guidance",
+      "status": "verified",
+      "notes": "并非所有机构必然陷入循环"
+    }
+  ]
+}
