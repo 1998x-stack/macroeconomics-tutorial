@@ -1,0 +1,50 @@
+{
+  "chapter": "07",
+  "claims": [
+    {
+      "id": "gdp-vintage",
+      "claim": "BEA 的季度GDP有advance second third等修订",
+      "kind": "source_definition",
+      "source_url": "https://www.bea.gov/news/gdp-release-additional-information",
+      "locator": "发布附录",
+      "status": "verified",
+      "notes": "某一历史时点的预测应使用当时版本"
+    },
+    {
+      "id": "alfred",
+      "claim": "ALFRED 提供历史可得的数据版本",
+      "kind": "source_definition",
+      "source_url": "https://alfred.stlouisfed.org/",
+      "locator": "网站说明",
+      "status": "verified",
+      "notes": "vintage 与最新修订版不同"
+    },
+    {
+      "id": "saar",
+      "claim": "季度年化按环比复利四期换算",
+      "kind": "source_definition",
+      "source_url": "https://www.bea.gov/help/faq/122",
+      "locator": "BEA FAQ",
+      "status": "verified",
+      "notes": "一个季度1%约合年化4.06%"
+    },
+    {
+      "id": "seasonal",
+      "claim": "季调依赖估计方法并可发生修订",
+      "kind": "source_definition",
+      "source_url": "https://www.bls.gov/cpi/seasonal-adjustment/methodology.htm",
+      "locator": "BLS方法",
+      "status": "verified",
+      "notes": "构造图不含真实季节调整数据"
+    },
+    {
+      "id": "toy",
+      "claim": "GDP 1.8 2.2 2.0 版本数字是玩具示例",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "07-release-vintage SVG",
+      "status": "illustrative",
+      "notes": "未对应实际公布值"
+    }
+  ]
+}
