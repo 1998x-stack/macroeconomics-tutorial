@@ -1,0 +1,41 @@
+{
+  "chapter": "16",
+  "claims": [
+    {
+      "id": "auto",
+      "claim": "税收下降与合资格给付增加可成为自动稳定器",
+      "kind": "source_definition",
+      "source_url": "https://www.cbo.gov/publication/62568",
+      "locator": "CBO 2026 automatic stabilizers",
+      "status": "verified",
+      "notes": "各制度适用人群不同"
+    },
+    {
+      "id": "debt",
+      "claim": "债务率由有效利率、名义GDP增长及基本盈余等决定",
+      "kind": "definition",
+      "source_url": "https://www.imf.org/-/media/files/publications/fiscal-monitor/2024/october/english/onlineannexes.pdf",
+      "locator": "Debt dynamics annex",
+      "status": "verified",
+      "notes": "简化式不含存量流量调整"
+    },
+    {
+      "id": "r-g",
+      "claim": "利息增长差不能单独断定违约",
+      "kind": "interpretation",
+      "source_url": "https://www.bis.org/publications/aer-2023/monetary-fiscal-policy-safeguarding-stability-trust",
+      "locator": "BIS fiscal stability chapter",
+      "status": "verified",
+      "notes": "与财政收支及风险溢价联动"
+    },
+    {
+      "id": "toy",
+      "claim": "80*(1.05/1.03)-1=80.55",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "article interactive model",
+      "status": "illustrative",
+      "notes": "纯构造"
+    }
+  ]
+}
