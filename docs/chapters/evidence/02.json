@@ -1,0 +1,41 @@
+{
+  "chapter": "02",
+  "claims": [
+    {
+      "id": "GDP-paths",
+      "claim": "生产、收入、支出三种 GDP 观察路线",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bea.gov/news/blog/2025-06-03/expenditures-approach-measuring-gdp",
+      "locator": "Three approaches",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "stat-diff",
+      "claim": "GDP 与 GDI 发布值会有统计差异",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bea.gov/help/faq/484",
+      "locator": "GDP/GDI FAQ",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "chain-real",
+      "claim": "实际 GDP 使用链式数量指数",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bea.gov/help/glossary/real-gross-domestic-product-real-gdp",
+      "locator": "Definition",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "bread",
+      "claim": "面包价值链5+5+10+5=25",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "figure 02-value",
+      "notes": "构造教学示例，不是经验数据。"
+    }
+  ]
+}

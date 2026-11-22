@@ -1,0 +1,41 @@
+{
+  "chapter": "04",
+  "claims": [
+    {
+      "id": "CPS",
+      "claim": "美国劳动力调查中失业分类条件与分母",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bls.gov/cps/definitions.htm",
+      "locator": "Unemployed/labor force",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "survey",
+      "claim": "家庭调查和企业工资单调查衡量对象不同",
+      "kind": "definition_or_model",
+      "status": "verified",
+      "source_url": "https://www.bls.gov/bls/empsitquickguide.htm",
+      "locator": "Quick guide",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "Okun",
+      "claim": "奥肯式仅代表经验规律",
+      "kind": "definition_or_model",
+      "status": "derived",
+      "source_url": "",
+      "locator": "Chapter model, not a fitted empirical result",
+      "notes": "以链接机构口径为准。"
+    },
+    {
+      "id": "labor-toy",
+      "claim": "E=60 U=5 非劳动力=35",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "figure 04-labor",
+      "notes": "构造教学示例，不是经验数据。"
+    }
+  ]
+}
