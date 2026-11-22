@@ -1,0 +1,41 @@
+{
+  "chapter": "15",
+  "claims": [
+    {
+      "id": "IORB",
+      "claim": "IORB是美联储短期利率实施重要工具",
+      "kind": "primary_source",
+      "status": "verified",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/iorb-faqs.htm",
+      "locator": "IORB FAQs",
+      "notes": "充裕准备金制度"
+    },
+    {
+      "id": "QE",
+      "claim": "央行购买证券产生准备金但不必自动产生客户贷款",
+      "kind": "primary_source",
+      "status": "verified",
+      "source_url": "https://www.bankofengland.co.uk/monetary-policy/quantitative-easing",
+      "locator": "QE explanation",
+      "notes": "买方不同可能产生不同存款路径"
+    },
+    {
+      "id": "transmission",
+      "claim": "政策影响利率信用资产价格汇率预期等渠道",
+      "kind": "primary_source",
+      "status": "verified",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+      "locator": "Federal Reserve transmission",
+      "notes": "不同渠道需实证分析"
+    },
+    {
+      "id": "toy",
+      "claim": "贷款价格政策传导与Q需求方程是玩具模型",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "15-transmission",
+      "notes": "非实证贷款需求估计"
+    }
+  ]
+}

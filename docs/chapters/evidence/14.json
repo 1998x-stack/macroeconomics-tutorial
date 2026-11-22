@@ -1,0 +1,50 @@
+{
+  "chapter": "14",
+  "claims": [
+    {
+      "id": "NPV",
+      "claim": "两期现金流60及初始成本100的NPV在利率10%时约4.13",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "14-npv与公式",
+      "notes": "构造教学项目"
+    },
+    {
+      "id": "tobinq",
+      "claim": "平均q不直接等于边际投资收益",
+      "kind": "model",
+      "status": "derived",
+      "source_url": "",
+      "locator": "14-q",
+      "notes": "模型解释依调整成本等条件"
+    },
+    {
+      "id": "credit",
+      "claim": "信用渠道包括银行贷款与资产负债表渠道",
+      "kind": "primary_source",
+      "status": "verified",
+      "source_url": "https://www.nber.org/papers/w5146",
+      "locator": "NBER WP5146",
+      "notes": "理论研究"
+    },
+    {
+      "id": "financial-accelerator",
+      "claim": "净资产恶化与外部融资溢价可能放大冲击",
+      "kind": "primary_source",
+      "status": "verified",
+      "source_url": "https://www.nber.org/papers/w6455",
+      "locator": "NBER WP6455",
+      "notes": "非任何冲击必然形成循环"
+    },
+    {
+      "id": "collateral",
+      "claim": "抵押贷款额度演示是构造计算",
+      "kind": "toy",
+      "status": "illustrative",
+      "source_url": "",
+      "locator": "14-collateral",
+      "notes": "LTV80%非现实统一标准"
+    }
+  ]
+}
