@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">人口老龄化的两个慢变量：生育率下行与老年抚养比上升</title><desc id="d">左图显示生育率从更替水平之上逐步下降到更替水平以下；右图显示 65 岁以上人口占比随时间上升、老年抚养比提高。两条曲线都是方向性示意，用来说明老龄化的长期压力，不代表某个国家的精确统计值。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">慢变量的两个方向</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<line x1="80" y1="380" x2="430" y2="380" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="80" y1="380" x2="80" y2="110" stroke="#6a7d7d" stroke-width="2"/>
+<text x="420" y="404" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">时间 →</text>
+<text x="72" y="116" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">生育率</text>
+<line x1="80" y1="210" x2="430" y2="210" stroke="#a18243" stroke-width="1.5" stroke-dasharray="6 6"/>
+<text x="424" y="204" font-family="system-ui,sans-serif" font-size="12" text-anchor="end" fill="#a18243">更替水平</text>
+<path d="M80 150 C 180 165, 260 220, 430 300" fill="none" stroke="#147d80" stroke-width="3"/>
+<text x="200" y="180" font-family="system-ui,sans-serif" font-size="13" fill="#147d80">多数经济体跌破更替水平</text>
+<line x1="500" y1="380" x2="860" y2="380" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="500" y1="380" x2="500" y2="110" stroke="#6a7d7d" stroke-width="2"/>
+<text x="852" y="404" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">时间 →</text>
+<text x="492" y="116" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">65+ 占比</text>
+<path d="M500 360 C 620 330, 720 250, 860 150" fill="none" stroke="#cd7355" stroke-width="3"/>
+<text x="610" y="300" font-family="system-ui,sans-serif" font-size="13" fill="#a06a58">老年抚养比持续上升</text>
+<text x="40" y="452" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">方向性示意：老龄化是慢变量，但其影响会累积——劳动力、储蓄率、自然利率与财政空间同时受压。</text>
+</svg>

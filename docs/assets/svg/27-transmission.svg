@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">关税冲击的三条传导渠道</title><desc id="d">关税上升通过三条渠道影响全球经济：贸易转移使供应链地理重组；成本推高进口价格，相当于负面供给冲击；政策不确定性抑制长期投资。三者叠加使物价上升与产出承压并存。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">一次关税上升，三条传导渠道</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="360" y="86" width="200" height="64" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="460" y="124" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle" fill="#8a4a34">关税上升</text>
+<line x1="400" y1="150" x2="200" y2="200" stroke="#147d80" stroke-width="2" marker-end="url(#h1)"/>
+<line x1="460" y1="150" x2="460" y2="200" stroke="#147d80" stroke-width="2" marker-end="url(#h1)"/>
+<line x1="520" y1="150" x2="720" y2="200" stroke="#147d80" stroke-width="2" marker-end="url(#h1)"/>
+<rect x="70" y="204" width="260" height="96" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="200" y="236" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#21363c">① 贸易转移</text>
+<text x="200" y="260" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">对美出口下降，对东盟等</text>
+<text x="200" y="280" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">出口上升 → 供应链重组</text>
+<rect x="330" y="204" width="260" height="96" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="460" y="236" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#21363c">② 成本推动</text>
+<text x="460" y="260" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">进口价格上涨 → 短期总供给</text>
+<text x="460" y="280" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">曲线左移 → 类滞胀</text>
+<rect x="590" y="204" width="260" height="96" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="720" y="236" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#21363c">③ 不确定性</text>
+<text x="720" y="260" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">政策朝令夕改 → 企业推迟</text>
+<text x="720" y="280" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">长期投资 → 投资下滑</text>
+<rect x="180" y="342" width="560" height="72" rx="12" fill="#f0f6f3" stroke="#dce5e3"/>
+<text x="460" y="372" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#21363c">共同结果：物价上行压力上升，同时产出与投资承压</text>
+<text x="460" y="398" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">“去风险”（分散供应链）与“脱钩”（关键领域切割）的代价不同。</text>
+<defs><marker id="h1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker></defs>
+</svg>

@@ -1,0 +1,68 @@
+{
+  "chapter": "27",
+  "claims": [
+    {
+      "id": "tariffchannels",
+      "claim": "关税上升通过贸易转移、成本推动与不确定性三条渠道影响全球经济",
+      "kind": "theory",
+      "source_url": "https://www.wto.org/",
+      "locator": "WTO · 世界贸易统计与贸易政策；IMF WEO 贸易章节",
+      "status": "verified",
+      "notes": "具体关税率需按官方与权威机构口径核对"
+    },
+    {
+      "id": "costpush",
+      "claim": "进口价格上涨等价于负面供给冲击，使短期总供给曲线左移，产出与物价反向变动",
+      "kind": "model",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "IMF · World Economic Outlook（供给冲击与类滞胀讨论）；AD-AS 标准框架",
+      "status": "verified",
+      "notes": "模型机制，不是对具体年份结果的预测"
+    },
+    {
+      "id": "aiinvestment",
+      "claim": "AI 相关投资通过直接需求、生产率与电力需求三个渠道影响宏观",
+      "kind": "empirical_correlation",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "IMF · World Economic Outlook（人工智能与生产率相关讨论）",
+      "status": "verified",
+      "notes": "拉动幅度属情景估算，需注明假设与来源"
+    },
+    {
+      "id": "energyshock",
+      "claim": "油价跳升是负面供给冲击，可形成物价上升与产出下降并存的类滞胀组合",
+      "kind": "model",
+      "source_url": "https://www.iea.org/",
+      "locator": "IEA · 国际能源署（能源供需与价格）",
+      "status": "verified",
+      "notes": "1970 年代石油危机为历史案例，本轮情景为假设"
+    },
+    {
+      "id": "aging",
+      "claim": "人口老龄化同时压低潜在增长率与自然利率、抬高财政压力",
+      "kind": "empirical",
+      "source_url": "https://population.un.org/wpp/",
+      "locator": "UN · World Population Prospects（生育率与人口结构）",
+      "status": "verified",
+      "notes": "生育率与占比需按联合国与国家官方数据核对"
+    },
+    {
+      "id": "policydivergence",
+      "claim": "各国面对不同冲击导致货币政策分化，分化本身成为全球金融波动来源",
+      "kind": "policy_practice",
+      "source_url": "https://www.bis.org/",
+      "locator": "BIS · 国际清算银行（货币政策分化与跨境资本流动）",
+      "status": "verified",
+      "notes": "利差与套利交易条件会随之改变"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章 AD-AS 交互图中的产出、价格水平与产出缺口数值",
+      "kind": "illustrative",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "构造演算，冲击大小由读者自选",
+      "status": "illustrative",
+      "notes": "教学示意，不对应任何真实经济体"
+    }
+  ]
+}
