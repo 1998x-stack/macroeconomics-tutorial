@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">明斯基的三种融资结构与明斯基时刻</title><desc id="d">繁荣期借款人从对冲型（现金流可还本息）滑向投机型（只能付息、需借新还旧）再到庞氏型（连利息都付不起，靠资产涨价），资产价格在信贷推动下加速上涨；当某个触发事件使信贷收紧，庞氏借款人被迫抛售，资产价格转跌，进入明斯基时刻与资产负债表衰退。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">稳定孕育不稳定：融资结构的三级滑落</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="60" y="200" width="210" height="86" rx="12" fill="#e1f2ef" stroke="#147d80" stroke-width="2"/>
+<text x="165" y="234" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#145e60">对冲型 Hedge</text>
+<text x="165" y="260" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#41595c">现金流还本付息</text>
+<rect x="330" y="140" width="210" height="86" rx="12" fill="#fbf7e9" stroke="#a18243" stroke-width="2"/>
+<text x="435" y="174" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#7a6229">投机型 Speculative</text>
+<text x="435" y="200" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">只付息，本金滚动</text>
+<rect x="600" y="80" width="220" height="86" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="710" y="114" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#8a4a34">庞氏型 Ponzi</text>
+<text x="710" y="140" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">靠资产涨价还债</text>
+<path d="M270 232 L326 190" stroke="#147d80" stroke-width="3" marker-end="url(#k1)"/>
+<path d="M540 172 L596 130" stroke="#a18243" stroke-width="3" marker-end="url(#k2)"/>
+<text x="300" y="360" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">繁荣期：贷款标准放松，借款人逐级上移，</text>
+<text x="300" y="384" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">资产涨价 → 更多加杠杆 → 正反馈。</text>
+<rect x="60" y="320" width="220" height="110" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="170" y="352" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#8a4a34">触发事件</text>
+<text x="170" y="376" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">某机构收紧贷款 /</text>
+<text x="170" y="396" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">加央行加息 / 价格停涨</text>
+<text x="170" y="418" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#8a4a34">→ 明斯基时刻</text>
+<text x="320" y="440" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">庞氏型被迫抛售 → 价格下跌 → 更多抛售（资产负债表衰退）。</text>
+<defs><marker id="k1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker><marker id="k2" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#a18243"/></marker></defs>
+</svg>

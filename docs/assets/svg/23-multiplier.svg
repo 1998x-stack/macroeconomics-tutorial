@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">乘数-加速数模型的自我强化循环</title><desc id="d">初始扰动使产出增速放缓，加速原理让企业按产出变化率削减投资，乘数效应再把投资下降放大为总需求与产出的更大下降，产出增速进一步放缓又触发下一轮投资削减，形成自我强化的向下螺旋；反向时同样自我强化。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">一个扰动为什么能滚成衰退</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="70" y="110" width="230" height="90" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="185" y="150" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">① 加速原理</text>
+<text x="185" y="176" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">投资取决于产出的变化率，</text>
+<text x="185" y="194" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">增速放缓就削减投资。</text>
+<rect x="620" y="110" width="230" height="90" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="735" y="150" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">② 乘数效应</text>
+<text x="735" y="176" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">投资下降 → 就业与收入下降</text>
+<text x="735" y="194" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">→ 消费下降 → 总需求下降。</text>
+<rect x="345" y="300" width="230" height="90" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="460" y="340" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">③ 反馈循环</text>
+<text x="460" y="366" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">总需求下降 → 增速再放缓</text>
+<text x="460" y="384" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#5b6d72">→ 回到 ①，螺旋向下。</text>
+<path d="M300 155 L616 155" fill="none" stroke="#147d80" stroke-width="3" marker-end="url(#m1)"/>
+<path d="M735 202 Q 735 300 580 330" fill="none" stroke="#147d80" stroke-width="3" marker-end="url(#m1)"/>
+<path d="M345 335 Q 165 330 180 205" fill="none" stroke="#cd7355" stroke-width="3" marker-end="url(#m2)"/>
+<text x="460" y="100" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#147d80">初始扰动：某行业库存积压 / 增速放缓</text>
+<text x="185" y="340" font-family="system-ui,sans-serif" font-size="14" fill="#cd7355">自我强化</text>
+<text x="185" y="360" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">无需巨大外生冲击</text>
+<defs><marker id="m1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker><marker id="m2" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#cd7355"/></marker></defs>
+</svg>
