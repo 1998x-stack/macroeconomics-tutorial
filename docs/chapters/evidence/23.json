@@ -5,7 +5,7 @@
       "id": "phases",
       "claim": "经济周期划分为扩张、顶峰、衰退、谷底四个阶段，长度与振幅不可预测",
       "kind": "definition",
-      "source_url": "https://www.nber.org/books-and-chapters/business-cycle-indicators-theoretical-and-empirical-analysis",
+      "source_url": "https://www.nber.org/research/business-cycle-dating",
       "locator": "NBER Business Cycle Dating Committee 方法说明",
       "status": "verified",
       "notes": "阶段划分为描述性；描述性不等于规律性可预测"
@@ -14,7 +14,7 @@
       "id": "multiplieraccelerator",
       "claim": "乘数-加速数模型：投资取决于产出变化率，乘数效应放大波动，可产生自我强化振荡",
       "kind": "model",
-      "source_url": "https://doi.org/10.2307/1913934",
+      "source_url": "https://doi.org/10.2307/1927758",
       "locator": "Samuelson, P. (1939). Interactions between the Multiplier Analysis and the Principle of Acceleration. REStat",
       "status": "verified",
       "notes": "模型假设，不是会计恒等式；c 与 v 决定振荡收敛或发散"
@@ -23,8 +23,8 @@
       "id": "animalspirits",
       "claim": "凯恩斯用“选美比赛”说明预期与二阶揣摩会放大市场波动（动物精神）",
       "kind": "theory",
-      "source_url": "https://www.jstor.org/stable/2068274",
-      "locator": "Keynes, J. M. (1936). The General Theory of Employment, Interest and Money, Ch.12",
+      "source_url": "https://www.econlib.org/library/Enc/bios/Keynes.html",
+      "locator": "Keynes, J. M. (1936). The General Theory, Ch.12；Econlib 传记页",
       "status": "verified",
       "notes": "直觉性论断而非形式化模型"
     },
@@ -32,7 +32,7 @@
       "id": "rbc",
       "claim": "真实经济周期理论：波动主要由真实技术冲击驱动，模型假设完全竞争与弹性价格",
       "kind": "model",
-      "source_url": "https://doi.org/10.1016/0304-3932(82)90012-5",
+      "source_url": "https://doi.org/10.2307/1913386",
       "locator": "Kydland & Prescott (1982), Time to Build and Aggregate Fluctuations, JME",
       "status": "verified",
       "notes": "被批评之处：几乎消解了非自愿失业，且难解释金融危机式崩溃"
@@ -50,7 +50,7 @@
       "id": "coordination",
       "claim": "协调失败与多重均衡：经济可能停在低产出高失业的“坏均衡”而无法自行脱困",
       "kind": "model",
-      "source_url": "https://doi.org/10.1086/261365",
+      "source_url": "https://doi.org/10.1086/261099",
       "locator": "Diamond, P. (1982). Aggregate Demand Management in Search Equilibrium, JPE 90(5)",
       "status": "verified",
       "notes": "为政策协调提供理论依据，但多重均衡的存在是模型结果"
@@ -59,7 +59,7 @@
       "id": "minsky",
       "claim": "金融不稳定假说：借款人分对冲型、投机型、庞氏型三类，稳定孕育不稳定",
       "kind": "theory",
-      "source_url": "https://doi.org/10.1093/acrefore/9780190625979.013.15",
+      "source_url": "https://www.levyinstitute.org/pubs/wp74.pdf",
       "locator": "Minsky, H. (1986). Stabilizing an Unstable Economy；明斯基时刻的教科书综述",
       "status": "verified",
       "notes": "条件性反馈机制，不是对危机时点的时间表预测"
@@ -68,7 +68,7 @@
       "id": "labdemo",
       "claim": "本章交互图表的稳态、峰值、谷底等数值",
       "kind": "illustrative",
-      "source_url": "https://doi.org/10.2307/1913934",
+      "source_url": "https://doi.org/10.2307/1927758",
       "locator": "构造演算，参数由读者在标注区间内自选",
       "status": "illustrative",
       "notes": "教学示意，不对应任何真实经济的校准"

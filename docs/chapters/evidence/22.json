@@ -32,8 +32,8 @@
       "id": "humancapital",
       "claim": "人力资本理论：教育提高生产技能，是一种投资（Becker, 1964）",
       "kind": "theory",
-      "source_url": "https://www.nber.org/books-and-chapters/human-capital-theoretical-and-empirical-analysis-special-reference-education-and-training",
-      "locator": "Becker, G. (1964). Human Capital",
+      "source_url": "https://www.nobelprize.org/prizes/economic-sciences/1992/summary/",
+      "locator": "Becker, G. (1964). Human Capital；Nobel Prize 1992 授奖说明",
       "status": "verified",
       "notes": "与信号理论并列，现实中两者同时存在"
     },
@@ -50,7 +50,7 @@
       "id": "educationreturns",
       "claim": "明瑟教育回报率的跨国估计大致为每年百分之几到约一成（私人回报率）",
       "kind": "empirical_correlation",
-      "source_url": "https://doi.org/10.1016/j.econedurev.2018.02.005",
+      "source_url": "https://doi.org/10.1596/1813-9450-8402",
       "locator": "Psacharopoulos & Patrinos (2018), Returns to Investment in Education, Economics of Education Review",
       "status": "verified",
       "notes": "属工资方程的经验估计，不能读作增长因果系数"
@@ -68,7 +68,7 @@
       "id": "wgi",
       "claim": "世界银行全球治理指标（WGI）从六个维度度量制度质量",
       "kind": "definition",
-      "source_url": "https://info.worldbank.org/governance/wgi/",
+      "source_url": "https://www.worldbank.org/en/publication/worldwide-governance-indicators",
       "locator": "World Bank, Worldwide Governance Indicators",
       "status": "verified",
       "notes": "指标与人均 GDP 显著正相关，但相关不等于因果"
@@ -77,7 +77,7 @@
       "id": "mit",
       "claim": "中等收入陷阱是世界银行 2007 年前后东亚研究提出的描述性命题",
       "kind": "concept",
-      "source_url": "https://doi.org/10.1596/978-0-8213-6809-1",
+      "source_url": "https://doi.org/10.1596/978-0-8213-6747-6",
       "locator": "World Bank (2007), An East Asian Renaissance",
       "status": "verified",
       "notes": "描述性概括而非铁律；不是对某国增速的具体预测"
