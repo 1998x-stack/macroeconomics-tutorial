@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">脉冲响应示意：技术冲击与紧缩性货币政策冲击</title><desc id="d">横轴为冲击后的期数，纵轴为相对稳态的偏离。正向技术冲击使产出先升后逐步回落并伴随通胀下降；紧缩性货币政策冲击使产出与通胀下降后在若干期内恢复。读图看方向、幅度与持久性三个维度。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">冲击之后，变量如何偏离稳态</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<line x1="80" y1="280" x2="430" y2="280" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="80" y1="280" x2="80" y2="100" stroke="#6a7d7d" stroke-width="2"/>
+<text x="420" y="304" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">期数 →</text>
+<text x="72" y="106" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">偏离</text>
+<text x="80" y="94" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#147d80">正向技术冲击</text>
+<path d="M80 280 C 110 150, 150 128, 200 160 C 260 200, 330 258, 425 278" fill="none" stroke="#147d80" stroke-width="3"/>
+<text x="200" y="120" font-family="system-ui,sans-serif" font-size="13" fill="#147d80">产出：上升后回落</text>
+<path d="M80 280 C 120 300, 200 320, 300 310 C 360 305, 400 300, 425 298" fill="none" stroke="#cd7355" stroke-width="3" stroke-dasharray="7 6"/>
+<text x="250" y="340" font-family="system-ui,sans-serif" font-size="13" fill="#a06a58">通胀：下降</text>
+<line x1="500" y1="280" x2="860" y2="280" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="500" y1="280" x2="500" y2="100" stroke="#6a7d7d" stroke-width="2"/>
+<text x="852" y="304" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">期数 →</text>
+<text x="492" y="106" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">偏离</text>
+<text x="500" y="94" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#7660a6">紧缩性货币政策冲击</text>
+<path d="M500 280 C 530 340, 570 372, 620 366 C 700 356, 790 322, 855 296" fill="none" stroke="#7660a6" stroke-width="3"/>
+<text x="560" y="400" font-family="system-ui,sans-serif" font-size="13" fill="#7660a6">产出：下降后恢复</text>
+<path d="M500 280 C 540 320, 610 348, 690 342 C 760 336, 810 322, 855 312" fill="none" stroke="#cd7355" stroke-width="3" stroke-dasharray="7 6"/>
+<text x="640" y="370" font-family="system-ui,sans-serif" font-size="13" fill="#a06a58">通胀：下降</text>
+<text x="40" y="452" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">读图三问：方向（正/负）、幅度（多大）、持久性（多久回到稳态）——示意形态，非实测算例。</text>
+</svg>

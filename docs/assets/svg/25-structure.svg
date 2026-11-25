@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">新凯恩斯 DSGE 的四个构件与三方程闭环</title><desc id="d">家庭在预算约束下最大化效用导出欧拉方程（动态 IS）；企业在垄断竞争与 Calvo 定价下最大化利润导出新凯恩斯菲利普斯曲线；央行按泰勒规则设定利率；市场出清使三个方程联立，得到整个经济的均衡动态路径。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">四个构件，三个方程，一个闭环</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="40" y="90" width="250" height="90" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="165" y="122" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">家庭：效用最大化</text>
+<text x="165" y="148" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">跨期选择 → 欧拉方程</text>
+<text x="165" y="168" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">→ 动态 IS 曲线</text>
+<rect x="335" y="90" width="250" height="90" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="460" y="122" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">企业：利润最大化</text>
+<text x="460" y="148" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">垄断竞争 + Calvo 定价</text>
+<text x="460" y="168" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">→ 新凯恩斯菲利普斯曲线</text>
+<rect x="630" y="90" width="250" height="90" rx="12" fill="#fbf7e9" stroke="#a18243" stroke-width="2"/>
+<text x="755" y="122" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">央行：泰勒规则</text>
+<text x="755" y="148" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">i 对通胀与产出缺口反应</text>
+<text x="755" y="168" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">→ 货币政策规则</text>
+<rect x="335" y="230" width="250" height="80" rx="12" fill="#e1f2ef" stroke="#147d80" stroke-width="2"/>
+<text x="460" y="262" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#145e60">市场出清</text>
+<text x="460" y="288" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#41595c">所有市场同时均衡</text>
+<line x1="165" y1="180" x2="400" y2="226" stroke="#147d80" stroke-width="2" marker-end="url(#q1)"/>
+<line x1="460" y1="180" x2="460" y2="226" stroke="#147d80" stroke-width="2" marker-end="url(#q1)"/>
+<line x1="755" y1="180" x2="520" y2="226" stroke="#a18243" stroke-width="2" marker-end="url(#q2)"/>
+<rect x="180" y="350" width="560" height="80" rx="12" fill="#f0f6f3" stroke="#dce5e3"/>
+<text x="460" y="382" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#21363c">三个方程联立求解 → 整个经济的均衡动态路径</text>
+<text x="460" y="408" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">“三个齿轮”：一个转动，另外两个跟着动。</text>
+<line x1="460" y1="310" x2="460" y2="348" stroke="#147d80" stroke-width="2" marker-end="url(#q1)"/>
+<defs><marker id="q1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker><marker id="q2" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#a18243"/></marker></defs>
+</svg>

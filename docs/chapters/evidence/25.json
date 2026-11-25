@@ -1,0 +1,77 @@
+{
+  "chapter": "25",
+  "claims": [
+    {
+      "id": "microfoundations",
+      "claim": "卢卡斯批判要求模型具备微观基础，参数应是从个体最优行为推导的结构参数",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.1016/S0167-2231(76)80003-6",
+      "locator": "Lucas, R. (1976). Econometric Policy Evaluation: A Critique",
+      "status": "verified",
+      "notes": "DSGE 方法论转向的起点"
+    },
+    {
+      "id": "rbcbase",
+      "claim": "RBC 模型以微观基础、一般均衡与跨期优化描述波动",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1913386",
+      "locator": "Kydland, F. & Prescott, E. (1982). Time to Build and Aggregate Fluctuations. Econometrica 50(6)",
+      "status": "verified",
+      "notes": "DSGE 的先驱之一"
+    },
+    {
+      "id": "nkdsge",
+      "claim": "新凯恩斯 DSGE 的核心是动态 IS、新凯恩斯菲利普斯曲线与货币政策的组合",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1257/jel.37.4.1661",
+      "locator": "Clarida, Galí & Gertler (1999). The Science of Monetary Policy: A New Keynesian Perspective. JEL 37(4)",
+      "status": "verified",
+      "notes": "三方程线性化形式见该综述及标准教材"
+    },
+    {
+      "id": "taylorrule",
+      "claim": "泰勒规则：名义利率对通胀与产出缺口做出系统性反应",
+      "kind": "policy_practice",
+      "source_url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+      "locator": "Taylor, J. (1993). Discretion versus Policy Rules in Practice. Carnegie-Rochester Series 39",
+      "status": "verified",
+      "notes": "泰勒原则要求通胀反应系数 φπ>1"
+    },
+    {
+      "id": "hank",
+      "claim": "HANK 模型引入异质性家庭，研究分配与宏观政策的互动",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1257/aer.20160042",
+      "locator": "Kaplan, Moll & Violante (2018). Monetary Policy According to HANK. AER 108(3)",
+      "status": "verified",
+      "notes": "对代表性主体假设的直接修正"
+    },
+    {
+      "id": "financialdsge",
+      "claim": "金融摩擦 DSGE 将银行与金融加速器纳入一般均衡，可模拟信贷冲击",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1016/j.jmoneco.2010.10.004",
+      "locator": "Gertler, M. & Karadi, P. (2011). A Model of Unconventional Monetary Policy. JME 58(1)",
+      "status": "verified",
+      "notes": "回应“金融部门缺失”的批评"
+    },
+    {
+      "id": "critique",
+      "claim": "对 DSGE 的主要批评包括代表性主体简化、金融部门缺失、线性近似局限与预测能力存疑",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.1257/jel.37.4.1661",
+      "locator": "新凯恩斯框架综述及其后续讨论",
+      "status": "verified",
+      "notes": "这些是方法论批评，不同文献侧重不同"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章交互图表中的名义利率与实际利率数值",
+      "kind": "illustrative",
+      "source_url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+      "locator": "构造演算，系数与当前通胀由读者自选",
+      "status": "illustrative",
+      "notes": "教学示意，不代表任何真实央行的实际规则"
+    }
+  ]
+}
