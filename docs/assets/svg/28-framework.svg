@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">宏观形势分析的四层递进框架</title><desc id="d">第一层数据画像：增长、通胀、就业、外部；第二层周期定位：产出缺口与菲利普斯曲线；第三层驱动拆解：需求 C+I+G+NX、供给与货币面；第四层政策应对：货币、财政与结构性改革。四层之间需要来回跳转，而非单向。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">从数据到判断：四层递进</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="60" y="78" width="800" height="72" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="80" y="108" font-family="system-ui,sans-serif" font-size="16" fill="#21363c">① 数据画像</text>
+<text x="80" y="134" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">增长（实际 GDP）、通胀（CPI/核心）、就业（失业率）、外部（贸易差额/汇率）</text>
+<rect x="60" y="166" width="800" height="72" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="80" y="196" font-family="system-ui,sans-serif" font-size="16" fill="#21363c">② 周期定位</text>
+<text x="80" y="222" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">产出缺口（实际 vs 潜在）、菲利普斯曲线位置、库存与信贷周期</text>
+<rect x="60" y="254" width="800" height="72" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="80" y="284" font-family="system-ui,sans-serif" font-size="16" fill="#21363c">③ 驱动拆解</text>
+<text x="80" y="310" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">需求侧 C+I+G+NX、供给侧行业、货币面量（M2/社融）与价（利率/汇率）、预期面</text>
+<rect x="60" y="342" width="800" height="72" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="80" y="372" font-family="system-ui,sans-serif" font-size="16" fill="#21363c">④ 政策应对</text>
+<text x="80" y="398" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">货币政策（松/紧、空间）、财政政策（积极/审慎、债务空间）、结构性改革</text>
+<line x1="120" y1="150" x2="120" y2="164" stroke="#147d80" stroke-width="2" marker-end="url(#f1)"/>
+<line x1="120" y1="238" x2="120" y2="252" stroke="#147d80" stroke-width="2" marker-end="url(#f1)"/>
+<line x1="120" y1="326" x2="120" y2="340" stroke="#147d80" stroke-width="2" marker-end="url(#f1)"/>
+<text x="600" y="446" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">四层之间需来回跳转：政策空间不足时，回到第二层重估“病得有多重”。</text>
+<defs><marker id="f1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker></defs>
+</svg>

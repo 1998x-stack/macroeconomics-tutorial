@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">“降息 + 财政扩张”在 IS-LM 与 AD-AS 中的传导</title><desc id="d">左图 IS-LM：财政扩张使 IS 曲线右移，降息使 LM 曲线右移，均衡产出上升，利率方向取决于两者相对幅度。右图 AD-AS：总需求曲线右移，产出上升、价格小幅上升；短期总供给不变。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">政策组合的传导：两个框架</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<line x1="80" y1="400" x2="440" y2="400" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="80" y1="400" x2="80" y2="110" stroke="#6a7d7d" stroke-width="2"/>
+<text x="430" y="424" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">产出 Y →</text>
+<text x="72" y="116" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">利率 i</text>
+<path d="M120 150 L400 350" fill="none" stroke="#cd7355" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M190 130 L440 320" fill="none" stroke="#cd7355" stroke-width="3"/>
+<path d="M120 360 L400 150" fill="none" stroke="#147d80" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M180 380 L440 190" fill="none" stroke="#147d80" stroke-width="3"/>
+<circle cx="263" cy="252" r="6" fill="#21363c"/>
+<text x="253" y="244" font-family="system-ui,sans-serif" font-size="12" text-anchor="end" fill="#21363c">E0</text>
+<circle cx="353" cy="254" r="6" fill="#21363c"/>
+<text x="367" y="248" font-family="system-ui,sans-serif" font-size="12" fill="#21363c">E1</text>
+<text x="150" y="146" font-family="system-ui,sans-serif" font-size="12" fill="#a06a58">IS1（财政扩张）</text>
+<text x="330" y="150" font-family="system-ui,sans-serif" font-size="12" fill="#147d80">LM0</text>
+<text x="400" y="210" font-family="system-ui,sans-serif" font-size="12" fill="#145e60">LM1（降息）</text>
+<text x="130" y="436" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#21363c">IS-LM：产出上升，利率方向待定</text>
+<line x1="520" y1="400" x2="870" y2="400" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="520" y1="400" x2="520" y2="110" stroke="#6a7d7d" stroke-width="2"/>
+<text x="862" y="424" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#5b6d72">产出 Y →</text>
+<text x="512" y="116" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">价格 P</text>
+<path d="M540 350 L860 150" fill="none" stroke="#147d80" stroke-width="3"/>
+<path d="M600 340 L870 180" fill="none" stroke="#147d80" stroke-width="3" stroke-dasharray="7 6"/>
+<path d="M540 340 L860 300" fill="none" stroke="#7660a6" stroke-width="3"/>
+<circle cx="650" cy="300" r="6" fill="#21363c"/>
+<text x="640" y="290" font-family="system-ui,sans-serif" font-size="12" text-anchor="end" fill="#21363c">E0</text>
+<circle cx="700" cy="308" r="6" fill="#21363c"/>
+<text x="714" y="300" font-family="system-ui,sans-serif" font-size="12" fill="#21363c">E1</text>
+<text x="700" y="180" font-family="system-ui,sans-serif" font-size="12" fill="#147d80">AD0</text>
+<text x="800" y="326" font-family="system-ui,sans-serif" font-size="12" fill="#145e60">SRAS</text>
+<text x="530" y="436" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#21363c">AD-AS：产出上升，价格小幅上升</text>
+</svg>

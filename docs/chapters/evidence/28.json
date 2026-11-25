@@ -1,0 +1,59 @@
+{
+  "chapter": "28",
+  "claims": [
+    {
+      "id": "fourlayer",
+      "claim": "宏观形势分析可采用“数据画像→周期定位→驱动拆解→政策应对”的四层递进框架",
+      "kind": "method",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "IMF · World Economic Outlook（形势分析与政策评估的一般方法）",
+      "status": "verified",
+      "notes": "这是分析流程建议，不是唯一正确方法"
+    },
+    {
+      "id": "islm",
+      "claim": "IS-LM：IS 表示商品市场均衡、LM 表示货币市场均衡，财政与货币政策使两条曲线移动",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1907242",
+      "locator": "Hicks, J. (1937). Mr. Keynes and the \"Classics\"; A Suggested Interpretation. Econometrica 5(2)",
+      "status": "verified",
+      "notes": "IS-LM 假设价格水平固定，未刻划预期"
+    },
+    {
+      "id": "adas",
+      "claim": "AD-AS：总需求曲线右移使产出上升、价格上升；负面供给冲击使短期总供给曲线左移",
+      "kind": "model",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "AD-AS 标准分析框架（对应第 12 章）",
+      "status": "verified",
+      "notes": "横轴为实际产出 Y、纵轴为价格水平 P"
+    },
+    {
+      "id": "expectations",
+      "claim": "政策效果受预期影响，用历史关系估计的模型在政策变化时可能失效",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.1016/S0167-2231(76)80003-6",
+      "locator": "Lucas, R. (1976). Econometric Policy Evaluation: A Critique",
+      "status": "verified",
+      "notes": "这也是政策模拟需要注明假设的原因"
+    },
+    {
+      "id": "dataset",
+      "claim": "本章案例一使用的宏观指标数据集",
+      "kind": "illustrative",
+      "source_url": "https://www.stats.gov.cn/",
+      "locator": "构造的分析练习数据集，非官方发布",
+      "status": "illustrative",
+      "notes": "教学练习用，真实分析请以国家统计局等官方数据为准"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章 IS-LM 交互图的新均衡产出与利率数值",
+      "kind": "illustrative",
+      "source_url": "https://doi.org/10.2307/1907242",
+      "locator": "构造演算，财政与货币移动由读者自选",
+      "status": "illustrative",
+      "notes": "教学示意，不构成对真实政策的预测"
+    }
+  ]
+}
