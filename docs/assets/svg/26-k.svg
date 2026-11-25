@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">新旧动能分化：K 型走势示意</title><desc id="d">以同一时间轴比较新动能行业与旧动能行业的相对走势：新动能增速高于整体、占比上升；旧动能（房地产与建筑）收缩、占比下降，二者形成字母 K 形的分叉。形态为示意，不代表具体年份的精确占比。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">一边向上，一边向下</text>
+<line x1="90" y1="400" x2="870" y2="400" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="90" y1="400" x2="90" y2="70" stroke="#6a7d7d" stroke-width="2"/>
+<text x="858" y="424" font-family="system-ui,sans-serif" font-size="15" text-anchor="end" fill="#5b6d72">时间 →</text>
+<text x="74" y="82" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">相对规模</text>
+<line x1="90" y1="250" x2="870" y2="250" stroke="#a18243" stroke-width="1.5" stroke-dasharray="6 6"/>
+<text x="866" y="242" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#a18243">整体经济</text>
+<path d="M90 250 C 300 235, 500 190, 860 110" fill="none" stroke="#147d80" stroke-width="3"/>
+<text x="700" y="128" font-family="system-ui,sans-serif" font-size="15" fill="#147d80">新动能：TMT / 新能源 / 光伏 / 锂电 / 生物医药</text>
+<path d="M90 250 C 300 268, 520 320, 860 372" fill="none" stroke="#cd7355" stroke-width="3"/>
+<text x="620" y="360" font-family="system-ui,sans-serif" font-size="15" fill="#a06a58">旧动能：房地产 / 建筑</text>
+<text x="120" y="120" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">“发动机”正在更换：</text>
+<text x="120" y="144" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">从钢筋水泥 → 芯片代码</text>
+<text x="120" y="168" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">从土地财政 → 技术红利</text>
+<text x="90" y="452" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">分叉形态为示意：用以说明两类行业方向相反，不代表某一年某个具体占比数值。</text>
+</svg>

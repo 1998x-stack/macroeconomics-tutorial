@@ -1,0 +1,68 @@
+{
+  "chapter": "26",
+  "claims": [
+    {
+      "id": "growthdrivers",
+      "claim": "高储蓄高投资、人口红利与对外开放是改革开放以来高速增长的主要结构性支点",
+      "kind": "empirical",
+      "source_url": "https://www.worldbank.org/en/country/china",
+      "locator": "World Bank · China 国别报道；国家统计局年度数据",
+      "status": "verified",
+      "notes": "各支点贡献的定量占比属文献估算，需按口径核对"
+    },
+    {
+      "id": "growthaccounting",
+      "claim": "增长核算 ΔY/Y=αΔK/K+(1−α)ΔL/L+ΔA/A 是给定 α 的会计分解",
+      "kind": "definition",
+      "source_url": "https://doi.org/10.2307/1884513",
+      "locator": "Solow (1956), A Contribution to the Theory of Economic Growth, QJE",
+      "status": "verified",
+      "notes": "TFP 残差是混合度量，不能等同于纯粹技术创新"
+    },
+    {
+      "id": "kdivergence",
+      "claim": "新动能行业增速高于整体、旧动能（房地产与建筑）收缩，呈现 K 型分化",
+      "kind": "empirical_correlation",
+      "source_url": "https://www.stats.gov.cn/",
+      "locator": "国家统计局 · 分行业增加值与投资数据",
+      "status": "verified",
+      "notes": "本章只描述方向，不给出未经核对的占比数值"
+    },
+    {
+      "id": "propertytransmission",
+      "claim": "房地产调整通过投资、财富效应、地方财政与金融加速器四条渠道传导",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.3386/w6455",
+      "locator": "Bernanke, Gertler & Gilchrist (1999). The Financial Accelerator in a Quantitative Business Cycle Framework",
+      "status": "verified",
+      "notes": "金融加速器是条件性反馈机制；量级需按官方数据核对"
+    },
+    {
+      "id": "balancesheet",
+      "claim": "资产负债表衰退：资产缩水时主体可能转向“债务最小化”，抑制消费与投资",
+      "kind": "theory",
+      "source_url": "https://www.imf.org/en/Publications/WEO",
+      "locator": "IMF · World Economic Outlook（资产负债表衰退相关讨论）",
+      "status": "verified",
+      "notes": "是否出现需基于官方与央行数据判断，本章不代为下结论"
+    },
+    {
+      "id": "governance",
+      "claim": "政策表述从“宏观调控”扩展为“宏观经济治理”，包含逆周期调节与跨周期结构性改革",
+      "kind": "policy_practice",
+      "source_url": "https://www.gov.cn/",
+      "locator": "中国政府网 · 五年规划与政策文件",
+      "status": "verified",
+      "notes": "具体目标数值以正式规划文件为准"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章交互图表中的资本、劳动与 TFP 贡献数值",
+      "kind": "illustrative",
+      "source_url": "https://doi.org/10.2307/1884513",
+      "locator": "构造演算，增长率与 α 由读者自选",
+      "status": "illustrative",
+      "notes": "教学示意，不对应任何年份的官方统计"
+    }
+  ]
+}

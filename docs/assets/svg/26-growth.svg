@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">中国高速增长的三个支点与随之积累的代价</title><desc id="d">高储蓄与高投资、人口红利、对外开放三个支点共同支撑了改革开放以来的高速增长；与此同时，投资回报下降、人口老龄化、外部依赖与环境代价也在积累，使增长模式面临从要素投入转向效率与创新的压力。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">三个支点，以及它们累积的代价</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="40" y="90" width="260" height="86" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="170" y="124" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">高储蓄 → 高投资</text>
+<text x="170" y="150" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">资本深化 / 基础设施</text>
+<rect x="330" y="90" width="260" height="86" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="460" y="124" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">人口红利</text>
+<text x="460" y="150" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">劳动力转移 / 抚养比低</text>
+<rect x="620" y="90" width="260" height="86" rx="12" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="750" y="124" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#21363c">对外开放</text>
+<text x="750" y="150" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#5b6d72">加入 WTO / 出口导向</text>
+<line x1="170" y1="176" x2="420" y2="220" stroke="#147d80" stroke-width="2" marker-end="url(#g1)"/>
+<line x1="460" y1="176" x2="460" y2="220" stroke="#147d80" stroke-width="2" marker-end="url(#g1)"/>
+<line x1="750" y1="176" x2="500" y2="220" stroke="#147d80" stroke-width="2" marker-end="url(#g1)"/>
+<rect x="270" y="224" width="380" height="60" rx="12" fill="#e1f2ef" stroke="#147d80" stroke-width="2"/>
+<text x="460" y="260" font-family="system-ui,sans-serif" font-size="17" text-anchor="middle" fill="#145e60">四十年的高速增长</text>
+<line x1="460" y1="284" x2="460" y2="318" stroke="#cd7355" stroke-width="2" marker-end="url(#g2)"/>
+<rect x="40" y="322" width="840" height="118" rx="12" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="64" y="352" font-family="system-ui,sans-serif" font-size="15" font-weight="700" fill="#a06a58">同时累积的代价</text>
+<text x="64" y="380" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">· 资本边际回报下降、部分行业产能过剩</text>
+<text x="64" y="404" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">· 人口老龄化、劳动年龄人口减少</text>
+<text x="500" y="380" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">· 外部依赖与贸易摩擦</text>
+<text x="500" y="404" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">· 环境与碳排放压力</text>
+<text x="64" y="428" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#a06a58">增长模式需要从“要素投入”转向“效率与创新”。</text>
+<defs><marker id="g1" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#147d80"/></marker><marker id="g2" markerWidth="10" markerHeight="10" refX="7" refY="3.5" orient="auto"><path d="M0 0 L7 3.5 L0 7 z" fill="#cd7355"/></marker></defs>
+</svg>
