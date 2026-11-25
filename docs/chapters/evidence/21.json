@@ -1,0 +1,59 @@
+{
+  "chapter": "21",
+  "claims": [
+    {
+      "id": "production",
+      "claim": "人均生产函数 y=f(k) 是技术假设，f′>0 且 f″<0（资本边际产出递减）",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1884513",
+      "locator": "Solow (1956), A Contribution to the Theory of Economic Growth, QJE",
+      "status": "verified",
+      "notes": "生产函数是模型假设而非会计恒等式"
+    },
+    {
+      "id": "steady",
+      "claim": "资本积累方程 dk/dt=s·f(k)−(δ+n+g)k，稳态满足 s·f(k*)=(δ+n+g)k*",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1884513",
+      "locator": "Solow (1956) 稳态条件",
+      "status": "verified",
+      "notes": "柯布—道格拉斯下 k*=(s/(δ+n+g))^{1/(1−α)}"
+    },
+    {
+      "id": "balancedgrowth",
+      "claim": "稳态后人均产出以技术进步率 g 增长，总产出以 g+n 增长",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1884513",
+      "locator": "Solow (1956) 有效劳动与平衡增长路径",
+      "status": "verified",
+      "notes": "长期人均增长在模型中只来源于外生技术进步"
+    },
+    {
+      "id": "accounting",
+      "claim": "增长核算 ΔY/Y=αΔK/K+(1−α)ΔL/L+ΔA/A 是给定 α 的会计分解",
+      "kind": "definition",
+      "source_url": "https://www.rug.nl/ggdc/productivity/pwt/",
+      "locator": "Penn World Table, growth accounting / TFP",
+      "status": "verified",
+      "notes": "TFP 残差是混合度量，不能直接等同于纯粹技术创新"
+    },
+    {
+      "id": "convergence",
+      "claim": "条件趋同：低于自身稳态的经济体增长更快，无条件趋同在全球并不成立",
+      "kind": "research",
+      "source_url": "https://ourworldindata.org/economic-growth",
+      "locator": "Maddison Project / Our World in Data 长期人均产出",
+      "status": "verified",
+      "notes": "趋同是世界观测与模型预测一致的经验相关，非唯一证明"
+    },
+    {
+      "id": "toy",
+      "claim": "s=0.2、δ=0.1、n=0.01、g=0.02、α=0.3 时 k*≈1.85、y*≈1.20；增长核算表为构造示例",
+      "kind": "toy",
+      "source_url": "",
+      "locator": "21-gap.svg、21-solow.svg、21-convergence.svg 与页面内实验室",
+      "status": "illustrative",
+      "notes": "全部为构造参数，不代表任何国家实测校准或官方统计"
+    }
+  ]
+}
