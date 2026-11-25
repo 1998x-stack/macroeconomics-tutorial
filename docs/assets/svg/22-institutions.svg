@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">包容性制度与掠夺性制度对创新与增长的两种作用</title><desc id="d">左栏包容性制度保护产权、允许竞争与多元参与，支持创造性破坏，使人力资本与研发投入能够转化为增长；右栏掠夺性制度权力集中、产权不稳、市场被垄断，抑制创新，使同样的投入难以转化为增长。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">同样的投入，不同的制度“土壤”</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="40" y="86" width="400" height="330" rx="14" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="64" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#147d80">包容性制度</text>
+<text x="64" y="154" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 产权稳定、契约可执行</text>
+<text x="64" y="182" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 允许自由进入与竞争</text>
+<text x="64" y="210" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 政治多元参与、权力制衡</text>
+<text x="64" y="238" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 容忍失败、奖励创新</text>
+<rect x="64" y="262" width="352" height="52" rx="10" fill="#e1f2ef"/>
+<text x="240" y="294" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#145e60">→ 支持“创造性破坏”</text>
+<text x="64" y="346" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">教育、研发、储蓄等投入</text>
+<text x="64" y="372" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">能转化为创新与增长。</text>
+<text x="64" y="400" font-family="system-ui,sans-serif" font-size="14" font-style="italic" fill="#147d80">土壤好：种子容易长成树。</text>
+<rect x="480" y="86" width="400" height="330" rx="14" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="504" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#cd7355">掠夺性制度</text>
+<text x="504" y="154" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 产权不稳、可被随意剥夺</text>
+<text x="504" y="182" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 市场被少数精英垄断</text>
+<text x="504" y="210" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 权力集中、缺乏制约</text>
+<text x="504" y="238" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">· 寻租比创新更划算</text>
+<rect x="504" y="262" width="352" height="52" rx="10" fill="#f7e3da"/>
+<text x="680" y="294" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#8a4a34">→ 抑制创造性破坏</text>
+<text x="504" y="346" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">同样的教育、研发与储蓄</text>
+<text x="504" y="372" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">难以转化为生产性活动。</text>
+<text x="504" y="400" font-family="system-ui,sans-serif" font-size="14" font-style="italic" fill="#a06a58">土壤差：最好的种子也可能被浪费。</text>
+</svg>

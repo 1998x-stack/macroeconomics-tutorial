@@ -1,0 +1,95 @@
+{
+  "chapter": "22",
+  "claims": [
+    {
+      "id": "nonrival",
+      "claim": "知识是非竞争性投入：一人使用不妨碍他人同时使用；同时通过专利等制度获得部分排他性",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1086/261725",
+      "locator": "Romer (1990), Endogenous Technological Change, JPE 98(5), Part 2",
+      "status": "verified",
+      "notes": "非竞争性是技术属性，部分排他性来自制度而非自然属性"
+    },
+    {
+      "id": "ak",
+      "claim": "AK 生产函数 Y=A·K 的资本边际产出为常数 A，不递减；g=s·A−δ",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1086/261420",
+      "locator": "Romer (1986), Increasing Returns and Long-Run Growth, JPE; AK 简化形式见标准增长教材",
+      "status": "verified",
+      "notes": "K 为广义资本；模型假设，非经验事实"
+    },
+    {
+      "id": "ideasfunction",
+      "claim": "创意生产函数 ΔA=δ·H_A·A：新知识取决于研发人力与现有知识存量",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1086/261725",
+      "locator": "Romer (1990), 研发部门设定",
+      "status": "verified",
+      "notes": "A 出现在右侧代表“站在前人肩膀上”"
+    },
+    {
+      "id": "humancapital",
+      "claim": "人力资本理论：教育提高生产技能，是一种投资（Becker, 1964）",
+      "kind": "theory",
+      "source_url": "https://www.nber.org/books-and-chapters/human-capital-theoretical-and-empirical-analysis-special-reference-education-and-training",
+      "locator": "Becker, G. (1964). Human Capital",
+      "status": "verified",
+      "notes": "与信号理论并列，现实中两者同时存在"
+    },
+    {
+      "id": "signaling",
+      "claim": "信号理论：教育文凭向雇主传递能力信号，可能主要起筛选作用（Spence, 1973）",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.2307/1882010",
+      "locator": "Spence, M. (1973). Job Market Signaling, QJE 87(3)",
+      "status": "verified",
+      "notes": "两种机制的相对权重是经验问题"
+    },
+    {
+      "id": "educationreturns",
+      "claim": "明瑟教育回报率的跨国估计大致为每年百分之几到约一成（私人回报率）",
+      "kind": "empirical_correlation",
+      "source_url": "https://doi.org/10.1016/j.econedurev.2018.02.005",
+      "locator": "Psacharopoulos & Patrinos (2018), Returns to Investment in Education, Economics of Education Review",
+      "status": "verified",
+      "notes": "属工资方程的经验估计，不能读作增长因果系数"
+    },
+    {
+      "id": "institutions",
+      "claim": "包容性制度与掠夺性制度之分是解释国家长期成败的核心论点（Acemoglu & Robinson, 2012）",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.1257/aer.91.5.1369",
+      "locator": "Acemoglu, Johnson & Robinson (2001), The Colonial Origins of Comparative Development, AER 91(5)；及 Why Nations Fail (2012)",
+      "status": "verified",
+      "notes": "制度与增长双向强化，因果方向存在争论"
+    },
+    {
+      "id": "wgi",
+      "claim": "世界银行全球治理指标（WGI）从六个维度度量制度质量",
+      "kind": "definition",
+      "source_url": "https://info.worldbank.org/governance/wgi/",
+      "locator": "World Bank, Worldwide Governance Indicators",
+      "status": "verified",
+      "notes": "指标与人均 GDP 显著正相关，但相关不等于因果"
+    },
+    {
+      "id": "mit",
+      "claim": "中等收入陷阱是世界银行 2007 年前后东亚研究提出的描述性命题",
+      "kind": "concept",
+      "source_url": "https://doi.org/10.1596/978-0-8213-6809-1",
+      "locator": "World Bank (2007), An East Asian Renaissance",
+      "status": "verified",
+      "notes": "描述性概括而非铁律；不是对某国增速的具体预测"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章交互图表中的储蓄率、A、折旧率、k*、y* 等数值",
+      "kind": "illustrative",
+      "source_url": "https://doi.org/10.1086/261420",
+      "locator": "构造演算，参数在标注区间内由读者自选",
+      "status": "illustrative",
+      "notes": "教学示意，不是任何国家的实测校准"
+    }
+  ]
+}

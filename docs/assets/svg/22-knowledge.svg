@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">实物商品是竞争性的，知识与创意是非竞争性的</title><desc id="d">左栏一台机器同一时间只能被一个人使用，第二个人拿不到；右栏一个设计或公式可以被许多人同时使用而不被消耗，因此知识具有正外部性，并通过专利等制度获得部分排他性以提供研发激励。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="46" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">同一份投入，两种“使用”方式</text>
+<line x1="40" y1="64" x2="880" y2="64" stroke="#dce5e3" stroke-width="2"/>
+<rect x="40" y="86" width="400" height="320" rx="14" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="64" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#cd7355">实物：一台机器（竞争性）</text>
+<rect x="180" y="150" width="120" height="90" rx="10" fill="#cd7355" opacity="0.25" stroke="#cd7355" stroke-width="2"/>
+<text x="240" y="205" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#8a4a34">机器</text>
+<circle cx="120" cy="196" r="22" fill="#147d80"/><text x="120" y="203" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#fff">甲</text>
+<circle cx="360" cy="196" r="22" fill="#c9d5d3"/><text x="360" y="203" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#41595c">乙</text>
+<path d="M142 196 L176 196" stroke="#147d80" stroke-width="3" marker-end="url(#a1)"/>
+<path d="M338 196 L304 196" stroke="#a8b4b2" stroke-width="3" stroke-dasharray="7 5"/>
+<text x="338" y="176" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#a06a58">拿不到</text>
+<text x="64" y="300" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">甲使用时，乙就无法同时使用；</text>
+<text x="64" y="326" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">边际成本接近“占用成本”，</text>
+<text x="64" y="352" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">新增使用者不会产生外部收益。</text>
+<text x="64" y="386" font-family="system-ui,sans-serif" font-size="14" font-style="italic" fill="#a06a58">竞争性商品：一人用，他人就不能用。</text>
+<rect x="480" y="86" width="400" height="320" rx="14" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="504" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#147d80">知识：一个设计（非竞争性）</text>
+<circle cx="680" cy="190" r="34" fill="#147d80" opacity="0.18" stroke="#147d80" stroke-width="2"/>
+<text x="680" y="196" font-family="system-ui,sans-serif" font-size="20" text-anchor="middle" fill="#147d80">ƒ</text>
+<circle cx="540" cy="290" r="20" fill="#147d80"/><text x="540" y="296" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#fff">甲</text>
+<circle cx="640" cy="290" r="20" fill="#147d80"/><text x="640" y="296" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#fff">乙</text>
+<circle cx="820" cy="290" r="20" fill="#147d80"/><text x="820" y="296" font-family="system-ui,sans-serif" font-size="14" text-anchor="middle" fill="#fff">丙</text>
+<line x1="652" y1="216" x2="552" y2="272" stroke="#147d80" stroke-width="2"/>
+<line x1="680" y1="224" x2="648" y2="272" stroke="#147d80" stroke-width="2"/>
+<line x1="708" y1="216" x2="808" y2="272" stroke="#147d80" stroke-width="2"/>
+<text x="540" y="346" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#5b6d72">同时使用</text>
+<text x="640" y="346" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#5b6d72">同时使用</text>
+<text x="820" y="346" font-family="system-ui,sans-serif" font-size="15" text-anchor="middle" fill="#5b6d72">同时使用</text>
+<text x="504" y="386" font-family="system-ui,sans-serif" font-size="14" font-style="italic" fill="#147d80">非竞争性：多人同时使用也不被消耗。</text>
+<defs><marker id="a1" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6 z" fill="#147d80"/></marker></defs>
+</svg>

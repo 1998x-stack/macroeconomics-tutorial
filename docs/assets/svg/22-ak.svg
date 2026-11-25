@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">AK 模型的资本边际产出恒定，索洛模型的边际产出递减</title><desc id="d">横轴为广义资本 k，纵轴为人均产出 y。索洛曲线 y=k 的 α 次方向上凸出但斜率递减，边际产出随资本增加而下降；AK 模型 y=A·k 是一条从原点出发的直线，斜率恒为 A，边际产出不递减，因此储蓄可以持续带来长期增长。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">资本边际产出：递减还是不变？</text>
+<line x1="90" y1="400" x2="860" y2="400" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="90" y1="400" x2="90" y2="70" stroke="#6a7d7d" stroke-width="2"/>
+<text x="850" y="424" font-family="system-ui,sans-serif" font-size="15" text-anchor="end" fill="#5b6d72">广义资本 k</text>
+<text x="72" y="72" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">人均产出 y</text>
+<path d="M90 400 C 300 250, 500 180, 780 140" fill="none" stroke="#cd7355" stroke-width="3"/>
+<text x="600" y="205" font-family="system-ui,sans-serif" font-size="16" fill="#a06a58">索洛 y = k^α（边际递减）</text>
+<line x1="90" y1="400" x2="780" y2="130" stroke="#147d80" stroke-width="3"/>
+<text x="560" y="330" font-family="system-ui,sans-serif" font-size="16" fill="#147d80">AK y = A·k（边际不变）</text>
+<line x1="380" y1="400" x2="380" y2="205" stroke="#cd7355" stroke-width="1.5" stroke-dasharray="5 5"/>
+<line x1="330" y1="400" x2="330" y2="238" stroke="#cd7355" stroke-width="1.5" stroke-dasharray="5 5"/>
+<text x="356" y="196" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#a06a58">斜率变小</text>
+<text x="600" y="150" font-family="system-ui,sans-serif" font-size="13" fill="#147d80">斜率恒为 A</text>
+<rect x="440" y="330" width="410" height="58" rx="10" fill="#f5faf9" stroke="#dce5e3"/>
+<text x="460" y="354" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">AK：只要 s·A &gt; δ，人均资本可无限累积，</text>
+<text x="460" y="376" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">人均产出持续增长——不依赖外生技术进步。</text>
+</svg>

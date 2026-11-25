@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">中等收入陷阱：增长引擎需要从要素投入切换到创新与制度</title><desc id="d">纵轴为人均收入，横轴为时间或发展阶段。低收入阶段靠劳动与资本等要素投入可实现较快增长；进入中等收入后，要素红利衰减，若制度与创新跟不上则长期横盘在中等收入区间；若完成引擎切换则继续上升到高收入。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">“中等收入陷阱”：增长的引擎需要切换</text>
+<line x1="90" y1="410" x2="860" y2="410" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="90" y1="410" x2="90" y2="70" stroke="#6a7d7d" stroke-width="2"/>
+<text x="850" y="434" font-family="system-ui,sans-serif" font-size="15" text-anchor="end" fill="#5b6d72">时间 →</text>
+<text x="72" y="72" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">人均收入</text>
+<line x1="90" y1="180" x2="860" y2="180" stroke="#cd7355" stroke-width="1.5" stroke-dasharray="6 6"/>
+<text x="856" y="172" font-family="system-ui,sans-serif" font-size="13" text-anchor="end" fill="#a06a58">高收入门槛（示意）</text>
+<path d="M90 400 L430 200" fill="none" stroke="#147d80" stroke-width="3"/>
+<text x="150" y="320" font-family="system-ui,sans-serif" font-size="14" fill="#147d80">低收入阶段：靠要素投入</text>
+<text x="150" y="342" font-family="system-ui,sans-serif" font-size="14" fill="#147d80">（劳动转移、低成本制造）</text>
+<path d="M430 200 L700 196 Q 790 214 840 150" fill="none" stroke="#7660a6" stroke-width="3"/>
+<text x="470" y="150" font-family="system-ui,sans-serif" font-size="14" fill="#7660a6">完成引擎切换 → 继续上升到高收入</text>
+<path d="M430 200 L820 214" fill="none" stroke="#cd7355" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="470" y="250" font-family="system-ui,sans-serif" font-size="14" fill="#a06a58">制度与创新跟不上 → 长期横盘在中游</text>
+<rect x="470" y="290" width="380" height="96" rx="10" fill="#f5faf9" stroke="#dce5e3"/>
+<text x="490" y="318" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">切换后的引擎：知识产权、风投与金融、</text>
+<text x="490" y="340" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">高等教育、鼓励创业与容忍失败。</text>
+<text x="490" y="366" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#5b6d72">“陷阱”是描述性命题，不是必由之路。</text>
+</svg>
