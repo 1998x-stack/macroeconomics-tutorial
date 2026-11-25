@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">适应性预期逐步“追上”现实，理性预期一次到位</title><desc id="d">横轴为时间，纵轴为通胀率。实际通胀在某期从 3% 跳到 10% 并保持不变。适应性预期按固定比例修正误差，需要若干年才逐步接近 10%，期间持续系统性偏低；理性预期在信息可得的条件下一次性跳到 10%，没有系统性偏差。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">同样一次通胀跳升，两种预期的反应</text>
+<line x1="90" y1="400" x2="870" y2="400" stroke="#6a7d7d" stroke-width="2"/>
+<line x1="90" y1="400" x2="90" y2="70" stroke="#6a7d7d" stroke-width="2"/>
+<text x="858" y="424" font-family="system-ui,sans-serif" font-size="15" text-anchor="end" fill="#5b6d72">时间 →</text>
+<text x="72" y="82" font-family="system-ui,sans-serif" font-size="15" fill="#5b6d72">通胀率 %</text>
+<text x="80" y="352" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">3%</text>
+<text x="80" y="152" font-family="system-ui,sans-serif" font-size="13" fill="#5b6d72">10%</text>
+<line x1="90" y1="147" x2="870" y2="147" stroke="#cd7355" stroke-width="1.5" stroke-dasharray="6 6"/>
+<path d="M90 347 L340 347 L340 147 L870 147" fill="none" stroke="#21363c" stroke-width="3"/>
+<text x="600" y="138" font-family="system-ui,sans-serif" font-size="14" fill="#21363c">实际通胀（跳升后不变）</text>
+<path d="M340 147 L430 147 L870 147" fill="none" stroke="#7660a6" stroke-width="3"/>
+<text x="470" y="132" font-family="system-ui,sans-serif" font-size="14" fill="#7660a6">理性预期：立即跳到 10%</text>
+<path d="M340 347 Q 420 250 470 210 Q 560 165 700 152 Q 780 149 870 148" fill="none" stroke="#147d80" stroke-width="3"/>
+<text x="470" y="250" font-family="system-ui,sans-serif" font-size="14" fill="#147d80">适应性预期：逐年追赶</text>
+<line x1="400" y1="300" x2="400" y2="160" stroke="#a18243" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="406" y="300" font-family="system-ui,sans-serif" font-size="13" fill="#a18243">系统性偏低（误差）</text>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 470" role="img" aria-labelledby="t d"><title id="t">时间不一致性：有承诺与无承诺下的通胀结果</title><desc id="d">左栏央行有可信承诺、以价格稳定为目标，公众按 2% 预期签合同，结果通胀 2%、失业为自然率。右栏央行保留相机抉择的诱惑，公众预期到这一点而按更高通胀签合同，结果通胀更高但失业仍停在自然率，形成通胀偏差：更高的通胀没有换来更低的失业。</desc>
+<rect x="0" y="0" width="920" height="470" rx="16" fill="#fffdfa"/>
+<text x="40" y="44" font-family="system-ui,sans-serif" font-size="20" font-weight="700" fill="#21363c">为什么“承诺”比“相机抉择”好</text>
+<line x1="40" y1="62" x2="880" y2="62" stroke="#dce5e3" stroke-width="2"/>
+<rect x="40" y="86" width="400" height="330" rx="14" fill="#f5faf9" stroke="#147d80" stroke-width="2"/>
+<text x="64" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#147d80">有承诺 / 规则</text>
+<text x="64" y="156" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">央行可信地承诺通胀目标 2%，</text>
+<text x="64" y="180" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">且无法（或无动机）事后偏离。</text>
+<text x="64" y="216" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">公众按 2% 预期签工资合同。</text>
+<rect x="64" y="244" width="352" height="66" rx="10" fill="#e1f2ef"/>
+<text x="240" y="272" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#145e60">结果：通胀 2%，失业 = 自然率</text>
+<text x="240" y="296" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#41595c">低通胀 + 稳定就业</text>
+<text x="64" y="352" font-family="system-ui,sans-serif" font-size="14" fill="#5b6d72">机制：把货币政策交给独立的、</text>
+<text x="64" y="376" font-family="system-ui,sans-serif" font-size="14" fill="#5b6d72">以价格稳定为目标的央行。</text>
+<text x="64" y="400" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#147d80">规则使“不欺骗”变得可信。</text>
+<rect x="480" y="86" width="400" height="330" rx="14" fill="#fff7ef" stroke="#cd7355" stroke-width="2"/>
+<text x="504" y="120" font-family="system-ui,sans-serif" font-size="17" font-weight="700" fill="#cd7355">无承诺 / 相机抉择</text>
+<text x="504" y="156" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">央行宣布 2%，但保留事后制造</text>
+<text x="504" y="180" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">意外通胀以压低实际工资的诱惑。</text>
+<text x="504" y="216" font-family="system-ui,sans-serif" font-size="15" fill="#21363c">公众预期到这一点，按更高通胀签约。</text>
+<rect x="504" y="244" width="352" height="66" rx="10" fill="#f7e3da"/>
+<text x="680" y="272" font-family="system-ui,sans-serif" font-size="16" text-anchor="middle" fill="#8a4a34">结果：通胀更高，失业仍=自然率</text>
+<text x="680" y="296" font-family="system-ui,sans-serif" font-size="13" text-anchor="middle" fill="#8a4a34">这就是通胀偏差</text>
+<text x="504" y="352" font-family="system-ui,sans-serif" font-size="14" fill="#5b6d72">试图“欺骗”的成本，最终以更高的</text>
+<text x="504" y="376" font-family="system-ui,sans-serif" font-size="14" fill="#5b6d72">均衡通胀率体现出来。</text>
+<text x="504" y="400" font-family="system-ui,sans-serif" font-size="13" font-style="italic" fill="#a06a58">更高的通胀没有换来更低的失业。</text>
+</svg>

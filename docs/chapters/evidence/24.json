@@ -1,0 +1,77 @@
+{
+  "chapter": "24",
+  "claims": [
+    {
+      "id": "adaptive",
+      "claim": "适应性预期按固定比例修正过去的预测误差，允许系统性预期错误持续存在",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1909635",
+      "locator": "Muth, J. (1961), 对适应性预期形式的对照与批评",
+      "status": "verified",
+      "notes": "行为假设而非恒等式；λ 为调整速度"
+    },
+    {
+      "id": "rational",
+      "claim": "理性预期：经济主体利用所有可得信息形成预期，预期误差均值为零、无系统性偏差",
+      "kind": "model",
+      "source_url": "https://doi.org/10.2307/1909635",
+      "locator": "Muth, J. (1961). Rational Expectations and the Theory of Price Movements. Econometrica 29(3)",
+      "status": "verified",
+      "notes": "不等于“每个人都能准确预测未来”"
+    },
+    {
+      "id": "policyineffectiveness",
+      "claim": "政策无效性命题：理性预期加弹性价格下，被预期到的货币政策不影响实际产出",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1016/0022-0531(72)90142-1",
+      "locator": "Lucas, R. (1972). Expectations and the Neutrality of Money. JET 4(2)",
+      "status": "verified",
+      "notes": "结论依赖市场出清与弹性价格的强假设"
+    },
+    {
+      "id": "lucascritique",
+      "claim": "卢卡斯批判：用历史数据估计的约化参数会随政策变动而改变，不能用于评估新政策",
+      "kind": "theory",
+      "source_url": "https://doi.org/10.1016/S0167-2231(76)80003-6",
+      "locator": "Lucas, R. (1976). Econometric Policy Evaluation: A Critique. Carnegie-Rochester Series on Public Policy 1",
+      "status": "verified",
+      "notes": "推动宏观模型转向结构式、微观基础"
+    },
+    {
+      "id": "timeinconsistency",
+      "claim": "时间不一致性与通胀偏差：缺乏承诺时，均衡落在更高通胀而失业无改善",
+      "kind": "model",
+      "source_url": "https://doi.org/10.1086/260580",
+      "locator": "Kydland, F. & Prescott, E. (1977). Rules Rather than Discretion. JPE 85(3)",
+      "status": "verified",
+      "notes": "为央行独立性与规则提供理论依据"
+    },
+    {
+      "id": "inflationtargeting",
+      "claim": "1990 年代多国引入通胀目标制作为货币政策框架",
+      "kind": "empirical_correlation",
+      "source_url": "https://www.bis.org/",
+      "locator": "BIS · 货币政策框架与通胀目标制研究索引",
+      "status": "verified",
+      "notes": "制度变革为历史事实；其对通胀结果的贡献需结合时期与其他因素评估"
+    },
+    {
+      "id": "forwardguidance",
+      "claim": "前瞻指引通过影响对未来短期利率路径的预期来影响长期利率",
+      "kind": "policy_practice",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy.htm",
+      "locator": "美联储 · 货币政策声明与前瞻指引（官方）",
+      "status": "verified",
+      "notes": "有效性依赖央行信用；沟通不当本身可能成为冲击"
+    },
+    {
+      "id": "labdemo",
+      "claim": "本章交互图表的实际通胀、初始预期与残差数值",
+      "kind": "illustrative",
+      "source_url": "https://doi.org/10.2307/1909635",
+      "locator": "构造演算，参数由读者在标注区间内自选",
+      "status": "illustrative",
+      "notes": "教学示意，不对应任何真实经济体的历史序列"
+    }
+  ]
+}
