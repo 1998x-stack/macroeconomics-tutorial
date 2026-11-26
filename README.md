@@ -5,7 +5,7 @@
 - **站点首页**：`docs/index.html`
 - **文章目录**：`docs/chapters/01.html` 至 `28.html`
 - **在线地址（Pages 配置且工作流成功后）**：https://1998x-stack.github.io/macroeconomics-tutorial/
-- **已深度精修**：第 01—20 章；16—20 章新增 23 张独立 SVG、5 项离线交互实验及逐章证据账本。21—28 章保留迁移原稿，尚未完成深度审核。
+- **已深度精修**：第 01—28 章。每章含独立证据账本；01—05、07 章新增随输入更新的离线 SVG 图表，06—28 章计算实验与动态 SVG 同步。全部 28 章通过文章静态校验（语义结构、MathML 键盘可滚动与可访问描述、SVG 可访问性）。
 - **本地阅读**：直接用浏览器打开 `docs/index.html`，不需要构建工具。
 - **校验**：`python3 scripts/validate_site.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。
 
@@ -17,6 +17,7 @@
 │   ├── chapters/01.html … 28.html
 │   ├── chapters/evidence/      # 每篇证据账本
 │   ├── assets/js/econ-labs.js  # 06–10 章节的计算实验和动态 SVG
+│   ├── assets/js/econ-labs-basics.js   # 01–05、07 章节的离线图表（与数字输出同步）
 │   ├── assets/js/econ-labs-advanced.js # 11–15 进阶实验
 │   ├── assets/js/econ-labs-open.js     # 16–20 债务、通胀、风险、BOP、汇率实验
 │   ├── assets/css/site.css     # 新版样式
