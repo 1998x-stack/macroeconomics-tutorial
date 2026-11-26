@@ -44,6 +44,16 @@ document.addEventListener("DOMContentLoaded",()=>{
    const bl=(cls,v)=>{const n=g.querySelector(".cpi-base-"+cls);if(n){n.setAttribute("y1",f(base-v*scale));n.setAttribute("y2",f(base-v*scale));}};
    bl("apple",2);bl("rice",4);
   }
+  if(type==="labor"){
+   const e=numeric(root,"e"),u=numeric(root,"u"),o=numeric(root,"out"),d=e+u,p=d+o;
+   if(!(d>0&&p>0))return;
+   const vals=[u/d*100,d/p*100,e/p*100],keys=["unemp","part","emppop"],base=260,scale=2;
+   keys.forEach((k,idx)=>{
+    const bar=g.querySelector(".labor-"+k),v=vals[idx];
+    if(bar){bar.setAttribute("height",f(v*scale));bar.setAttribute("y",f(base-v*scale));}
+    const t=g.querySelector(".labor-txt-"+k);if(t){t.textContent=f(v)+"%";t.setAttribute("y",f(base-v*scale-8));}
+   });
+  }
  }
  document.querySelectorAll("[data-experiment]").forEach(root=>{
   if(root.querySelector("svg[data-chart]")){
