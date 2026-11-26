@@ -54,6 +54,15 @@ document.addEventListener("DOMContentLoaded",()=>{
     const t=g.querySelector(".labor-txt-"+k);if(t){t.textContent=f(v)+"%";t.setAttribute("y",f(base-v*scale-8));}
    });
   }
+  if(type==="loan"){
+   const v=numeric(root,"loan");
+   if(!Number.isFinite(v))return;
+   const base=250,scale=1,h=Math.min(v,200)*scale;
+   [["asset",v],["deposit",v]].forEach(([k,val])=>{
+    const b=g.querySelector(".loan-"+k);if(b){b.setAttribute("height",f(h));b.setAttribute("y",f(base-h));}
+    const t=g.querySelector(".loan-txt-"+k);if(t){t.textContent="+"+f(val);t.setAttribute("y",f(base-h-8));}
+   });
+  }
  }
  document.querySelectorAll("[data-experiment]").forEach(root=>{
   if(root.querySelector("svg[data-chart]")){
