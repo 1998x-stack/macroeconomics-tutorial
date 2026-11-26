@@ -21,6 +21,18 @@ document.addEventListener("DOMContentLoaded",()=>{
    put(g,".mul-point",x(y),yy(y));
    label(g,".mul-label","E ("+f(y)+")");
   }
+  if(type==="gdp"){
+   const c=numeric(root,"c"),i=numeric(root,"i"),gg=numeric(root,"g"),nx=numeric(root,"nx");
+   if([c,i,gg,nx].some(v=>!Number.isFinite(v)))return;
+   const vals=[c,i,gg,nx,c+i+gg+nx],keys=["c","i","g","nx","total"];
+   const mx=Math.max(50,...vals.map(v=>Math.abs(v))),base=290,scale=230/mx;
+   keys.forEach((k,idx)=>{
+    const bar=g.querySelector(".gdp-"+k),v=vals[idx];
+    if(bar){const h=Math.abs(v)*scale;bar.setAttribute("height",f(h));bar.setAttribute("y",f(v>=0?base-h:base));}
+    const t=g.querySelector(".gdp-txt-"+k);
+    if(t){t.setAttribute("y",f(v>=0?base-Math.abs(v)*scale-8:base+Math.abs(v)*scale+18));t.textContent=f(v);}
+   });
+  }
  }
  document.querySelectorAll("[data-experiment]").forEach(root=>{
   if(root.querySelector("svg[data-chart]")){
