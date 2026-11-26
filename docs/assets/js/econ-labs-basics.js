@@ -63,6 +63,17 @@ document.addEventListener("DOMContentLoaded",()=>{
     const t=g.querySelector(".loan-txt-"+k);if(t){t.textContent="+"+f(val);t.setAttribute("y",f(base-h-8));}
    });
   }
+  if(type==="annual"){
+   const a=numeric(root,"old"),b=numeric(root,"now");
+   if(!(a>0&&b>0))return;
+   const q=(b/a-1)*100,ann=(Math.pow(b/a,4)-1)*100;
+   const mx=Math.max(5,Math.abs(q),Math.abs(ann)),base=210,scale=150/mx;
+   [["q",q],["a",ann]].forEach(([k,v])=>{
+    const bar=g.querySelector(".annual-"+k),h=Math.abs(v)*scale;
+    if(bar){bar.setAttribute("height",f(h));bar.setAttribute("y",f(v>=0?base-h:base));}
+    const t=g.querySelector(".annual-txt-"+k);if(t){t.textContent=f(v)+"%";t.setAttribute("y",f(v>=0?base-h-8:base+h+18));}
+   });
+  }
  }
  document.querySelectorAll("[data-experiment]").forEach(root=>{
   if(root.querySelector("svg[data-chart]")){
