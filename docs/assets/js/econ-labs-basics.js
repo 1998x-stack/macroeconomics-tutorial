@@ -33,6 +33,17 @@ document.addEventListener("DOMContentLoaded",()=>{
     if(t){t.setAttribute("y",f(v>=0?base-Math.abs(v)*scale-8:base+Math.abs(v)*scale+18));t.textContent=f(v);}
    });
   }
+  if(type==="cpi"){
+   const a=numeric(root,"apple"),r=numeric(root,"rice");
+   if(!Number.isFinite(a)||!Number.isFinite(r))return;
+   const mx=Math.max(6,a,r),base=250,scale=200/mx;
+   const bar=(cls,v)=>{const b=g.querySelector(".cpi-bar.cpi-"+cls);
+    if(b){const h=v*scale;b.setAttribute("height",f(h));b.setAttribute("y",f(base-h));}
+    const t=g.querySelector(".cpi-txt-"+cls);if(t){t.textContent=f(v);t.setAttribute("y",f(base-v*scale-8));}};
+   bar("apple",a);bar("rice",r);
+   const bl=(cls,v)=>{const n=g.querySelector(".cpi-base-"+cls);if(n){n.setAttribute("y1",f(base-v*scale));n.setAttribute("y2",f(base-v*scale));}};
+   bl("apple",2);bl("rice",4);
+  }
  }
  document.querySelectorAll("[data-experiment]").forEach(root=>{
   if(root.querySelector("svg[data-chart]")){
