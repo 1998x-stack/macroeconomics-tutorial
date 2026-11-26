@@ -5,9 +5,9 @@
 - **站点首页**：`docs/index.html`
 - **文章目录**：`docs/chapters/01.html` 至 `28.html`
 - **在线地址（Pages 配置且工作流成功后）**：https://1998x-stack.github.io/macroeconomics-tutorial/
-- **已深度精修**：第 01—28 章。每章含独立证据账本；01—05、07 章新增随输入更新的离线 SVG 图表，06—28 章计算实验与动态 SVG 同步。全部 28 章通过文章静态校验（语义结构、MathML 键盘可滚动与可访问描述、SVG 可访问性）。
+- **已深度精修**：第 01—20 章，逐章含独立证据账本；01—05、07 章新增随输入更新的离线 SVG 图表，06—20 章计算实验与动态 SVG 同步。21—28 章为迁移原稿，尚未完成逐章审稿，不标记为已审核。
 - **本地阅读**：直接用浏览器打开 `docs/index.html`，不需要构建工具。
-- **校验**：`python3 scripts/validate_site.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。
+- **校验**：`python3 scripts/validate_site.py`；浏览器检查：`python3 scripts/browser_check.py`（需安装 Playwright + Chromium）。两项工具的实测覆盖范围如下：`validate_site.py` 检查 28 章的站内链接、图片 `alt`、`docs/assets/svg/` 下独立 SVG 的 `viewBox` 与 `<title>/<desc>`，以及 01—20 章各自唯一的 H1 与 `chapters/evidence/*.json` 证据账本字段；它**不检查** MathML、ARIA、`role` 等 Web 语义，也不扫描 HTML 内联 SVG。`browser_check.py` 覆盖 `index.html` 与 01—20 章，宽度 1440/390/360，检查横向溢出、断图、MathML 可见性、实验输出与动态图是否随输入更新、运行时错误。
 
 ## 项目结构
 
