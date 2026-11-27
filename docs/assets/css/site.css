@@ -25,3 +25,7 @@
 .article .economics-lab .experiment-chart{width:100%;height:auto;max-width:100%;display:block;overflow:hidden}
 .article .economics-lab output{font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
 @media(max-width:640px){.article .equation{max-width:100%}.article .economics-lab{min-width:0;max-width:100%;overflow:hidden}}
+
+/* Keep long runnable model listings inside the article viewport on phones. */
+.article pre{display:block;width:100%;max-width:100%;min-width:0;box-sizing:border-box;overflow-x:auto;white-space:pre;overscroll-behavior-x:contain}
+.article pre code{display:block;max-width:none;white-space:pre;overflow-wrap:normal}

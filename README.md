@@ -20,11 +20,14 @@
 │   ├── assets/js/econ-labs-basics.js   # 01–05、07 章节的离线图表（与数字输出同步）
 │   ├── assets/js/econ-labs-advanced.js # 11–15 进阶实验
 │   ├── assets/js/econ-labs-open.js     # 16–20 债务、通胀、风险、BOP、汇率实验
+│   ├── assets/js/econ-labs-growth.js   # 21–25 增长、创意、周期、预期、DSGE实验
+│   ├── assets/code/rbc_baseline.mod    # Dynare RBC 基准模型
 │   ├── assets/css/site.css     # 新版样式
 │   ├── assets/js/experiments.js
 │   ├── assets/svg/             # 自制 SVG
 │   └── 01.html … 28.html      # 旧 Pages URL 的兼容重定向
 ├── scripts/validate_site.py
+├── scripts/verify_rbc_baseline.py
 ├── .github/workflows/         # 校验、部署
 ├── AGENTS.md                  # 编写与事实验收规则
 └── 01.html … 28.html          # 根目录旧文件，过渡期保留
